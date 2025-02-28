@@ -8,7 +8,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Progress } from "@/components/ui/progress"
 import { Gamepad2, Github, Globe, Calendar, Users, Code, Cpu, X } from "lucide-react"
 import { FaGooglePlay, FaAppStoreIos, FaSteam, FaXbox, FaPlaystation, FaItchIo } from "react-icons/fa"
-import { SiAppgallery, SiHuawei } from "react-icons/si"
+import { SiHuawei } from "react-icons/si"
 import { TbBrandRust } from "react-icons/tb"
 
 import translations from '../data/translations.json';

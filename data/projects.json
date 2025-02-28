@@ -126,5 +126,133 @@
                 "storeLinks": {}
             }
         ]
+    },
+    "ru": {
+        "published": [
+            {
+                "title": "Aristocrasy",
+                "role": "Инди-разработчик",
+                "description": "Игра в жанре рогалик с бесконечно генерируемой картой и уровнями, а также множество улучшений.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "Visual Shader Graph",
+                    "2D Art"
+                ],
+                "date": "2024",
+                "team": "Команда из 1 человека",
+                "image": "/images/aristocrasy.jpeg",
+                "github": "https://github.com/smagoll/roguelike",
+                "platforms": "Android",
+                "responsibilities": [
+                    "Разработал и реализовал систему чанков",
+                    "Оптимизировал рендеринг и код",
+                    "Реализовал систему способностей",
+                    "Первая выпущенная игра, опыт с публикацией"
+                ],
+                "features": [
+                    "Разнообразие оружий, способностей и героев",
+                    "Бесконечный режим",
+                    "Прогрессивное усиление врагов"
+                ],
+                "storeLinks": {
+                    "appGallery": "https://appgallery.cloud.huawei.com/ag/n/app/C110498811?locale=en_US&source=appshare&subsource=C110498811&shareTo=com.android.chrome&shareFrom=appmarket&shareIds=bec52d58749d4c19abfe408751631d01_com.android.chrome&callType=SHARE",
+                    "ruStore": "https://www.rustore.ru/catalog/app/aristocrasy.apk",
+                    "itchIo": "https://smagoll.itch.io/aristocrasy"
+                }
+            },
+            {
+                "title": "HexaSort",
+                "role": "Геймплей и технический разработчик",
+                "description": "Игра в жанре головоломки с более чем 100 уровнями, системой квестов, таблицей лидеров.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "Addressables",
+                    "YandexSDK"
+                ],
+                "date": "2024",
+                "team": "Команда из 3 человек",
+                "image": "/images/hexaSort.png",
+                "github": "",
+                "platforms": "WebGL",
+                "responsibilities": [
+                    "Полностью реализовал все механики",
+                    "Создал все анимации, эффекты и шейдеры",
+                    "Реализовал систему квестов и островов",
+                    "Оптимизировал размер билда и запуск игры"
+                ],
+                "features": [
+                    "Разнообразие видов плиток",
+                    "Ежедневные и еженедельные квесты",
+                    "Больше 100 уровней",
+                    "Прокачка островов"
+                ],
+                "storeLinks": {
+                    "yandexGames": "https://yandex.ru/games/app/371625#app-id=371625&catalog-session-uid=catalog-9a541ed9-dfb4-53f1-a791-459d46265ca8-1739857761552-1321&rtx-reqid=11440383696854432006&pos=%7B%22listType%22%3A%22played%22%2C%22tabCategory%22%3A%22common%22%7D&redir-data=%7B%22block%22%3A%22played%22%2C%22block_index%22%3A0%2C%22card%22%3A%22your_games%22%2C%22col%22%3A3%2C%22first_screen%22%3A1%2C%22page%22%3A%22main%22%2C%22rn%22%3A118453333%2C%22row%22%3A0%2C%22rtx_reqid%22%3A%2211440383696854432006%22%2C%22same_block_index%22%3A0%2C%22wrapper%22%3A%22played_games%22%2C%22http_ref%22%3A%22https%253A%252F%252Fyandex.ru%252Fgames%252F%22%7D"
+                }
+            }
+        ],
+        "inDevelopment": [
+            {
+                "title": "Avalanche",
+                "role": "Инди-разработчик",
+                "description": "Игра в жанре аркады с прохождением рандомно генерируемых уровней. Уникальный геймплей и разнообразие действий.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "Addressables",
+                    "Zenject",
+                    "Blender",
+                    "Unity Jobs"
+                ],
+                "date": "2025",
+                "team": "Команда из 1 человека",
+                "image": "/images/avalanche.png",
+                "github": "",
+                "platforms": "Android, IOS, WebGL",
+                "responsibilities": [
+                    "Создание рандомно генерируемой трасы",
+                    "Создание 3D моделей",
+                    "Разработка UI/UX",
+                    "Оптимизация нагруженных операций"
+                ],
+                "features": [
+                    "Разнообразие действий игрока",
+                    "Непредсказуемое поведение мира",
+                    "Удобство в управлении"
+                ],
+                "storeLinks": {}
+            },
+            {
+                "title": "Losses",
+                "role": "Инди-разработчик",
+                "description": "Игра в жанре социальной дедукции. Действие игры происходит на острове, где необходимо найти убийц, чтобы выжить.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "Addressables",
+                    "Zenject",
+                    "Blender"
+                ],
+                "date": "2026-2030",
+                "team": "Команда из 1 человека",
+                "image": "/images/losses.jpg",
+                "github": "",
+                "platforms": "PC",
+                "responsibilities": [
+                    "Создание мультиплеера",
+                    "Разработка механики мини-игр",
+                    "Продумывание истории игры",
+                    "Создание дизайна всей игры от механик до внешнего вида"
+                ],
+                "features": [
+                    "Удивительная атмосфера",
+                    "Живой мир",
+                    "Игра с друзьми или другими игроками"
+                ],
+                "storeLinks": {}
+            }
+        ]
     }
 }
