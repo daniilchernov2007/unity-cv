@@ -1,0 +1,130 @@
+{
+    "en": {
+        "published": [
+            {
+                "title": "Aristocrasy",
+                "role": "Indie Developer",
+                "description": "Roguelike game with an infinitely generated map and levels, as well as many upgrades.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "Visual Shader Graph",
+                    "2D Art"
+                ],
+                "date": "2024",
+                "team": "Solo Developer",
+                "image": "/images/aristocrasy.jpeg",
+                "github": "https://github.com/smagoll/roguelike",
+                "platforms": "Android",
+                "responsibilities": [
+                    "Developed and implemented the chunk system",
+                    "Optimized rendering and code",
+                    "Implemented the abilities system",
+                    "First released game, experience with publishing"
+                ],
+                "features": [
+                    "Variety of weapons, abilities, and heroes",
+                    "Endless mode",
+                    "Progressive enemy difficulty increase"
+                ],
+                "storeLinks": {
+                    "appGallery": "https://appgallery.cloud.huawei.com/ag/n/app/C110498811?locale=en_US&source=appshare&subsource=C110498811&shareTo=com.android.chrome&shareFrom=appmarket&shareIds=bec52d58749d4c19abfe408751631d01_com.android.chrome&callType=SHARE",
+                    "ruStore": "https://www.rustore.ru/catalog/app/aristocrasy.apk",
+                    "itchIo": "https://smagoll.itch.io/aristocrasy"
+                }
+            },
+            {
+                "title": "HexaSort",
+                "role": "Gameplay and Technical Developer",
+                "description": "Puzzle game with over 100 levels, quest system, and leaderboard.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "Addressables",
+                    "YandexSDK"
+                ],
+                "date": "2024",
+                "team": "Team of 3",
+                "image": "/images/hexaSort.png",
+                "github": "",
+                "platforms": "WebGL",
+                "responsibilities": [
+                    "Fully implemented all mechanics",
+                    "Created all animations, effects, and shaders",
+                    "Implemented the quest and island system",
+                    "Optimized build size and game loading"
+                ],
+                "features": [
+                    "Variety of tile types",
+                    "Daily and weekly quests",
+                    "More than 100 levels",
+                    "Island upgrading system"
+                ],
+                "storeLinks": {
+                    "yandexGames": "https://yandex.ru/games/app/371625#app-id=371625"
+                }
+            }
+        ],
+        "inDevelopment": [
+            {
+                "title": "Avalanche",
+                "role": "Indie Developer",
+                "description": "Arcade game with randomly generated levels. Unique gameplay and a variety of actions.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "Addressables",
+                    "Zenject",
+                    "Blender",
+                    "Unity Jobs"
+                ],
+                "date": "2025",
+                "team": "Solo Developer",
+                "image": "/images/avalanche.png",
+                "github": "",
+                "platforms": "Android, IOS, WebGL",
+                "responsibilities": [
+                    "Creating randomly generated tracks",
+                    "Creating 3D models",
+                    "Developing UI/UX",
+                    "Optimizing heavy operations"
+                ],
+                "features": [
+                    "Variety of player actions",
+                    "Unpredictable world behavior",
+                    "Easy and intuitive controls"
+                ],
+                "storeLinks": {}
+            },
+            {
+                "title": "Losses",
+                "role": "Indie Developer",
+                "description": "Social deduction game set on an island where players must find the killers to survive.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "Addressables",
+                    "Zenject",
+                    "Blender"
+                ],
+                "date": "2026-2030",
+                "team": "Solo Developer",
+                "image": "/images/losses.jpg",
+                "github": "",
+                "platforms": "PC",
+                "responsibilities": [
+                    "Creating multiplayer functionality",
+                    "Developing mini-game mechanics",
+                    "Designing the game’s storyline",
+                    "Designing the entire game from mechanics to visuals"
+                ],
+                "features": [
+                    "Immersive atmosphere",
+                    "Living world",
+                    "Play with friends or other players"
+                ],
+                "storeLinks": {}
+            }
+        ]
+    }
+}
