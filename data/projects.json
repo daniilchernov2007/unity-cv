@@ -63,9 +63,7 @@
                 "storeLinks": {
                     "yandexGames": "https://yandex.ru/games/app/371625#app-id=371625"
                 }
-            }
-        ],
-        "inDevelopment": [
+            },
             {
                 "title": "Avalanche",
                 "role": "Indie Developer",
@@ -95,7 +93,9 @@
                     "Easy and intuitive controls"
                 ],
                 "storeLinks": {}
-            },
+            }
+        ],
+        "inDevelopment": [
             {
                 "title": "Losses",
                 "role": "Indie Developer",
@@ -191,9 +191,7 @@
                 "storeLinks": {
                     "yandexGames": "https://yandex.ru/games/app/371625#app-id=371625&catalog-session-uid=catalog-9a541ed9-dfb4-53f1-a791-459d46265ca8-1739857761552-1321&rtx-reqid=11440383696854432006&pos=%7B%22listType%22%3A%22played%22%2C%22tabCategory%22%3A%22common%22%7D&redir-data=%7B%22block%22%3A%22played%22%2C%22block_index%22%3A0%2C%22card%22%3A%22your_games%22%2C%22col%22%3A3%2C%22first_screen%22%3A1%2C%22page%22%3A%22main%22%2C%22rn%22%3A118453333%2C%22row%22%3A0%2C%22rtx_reqid%22%3A%2211440383696854432006%22%2C%22same_block_index%22%3A0%2C%22wrapper%22%3A%22played_games%22%2C%22http_ref%22%3A%22https%253A%252F%252Fyandex.ru%252Fgames%252F%22%7D"
                 }
-            }
-        ],
-        "inDevelopment": [
+            },
             {
                 "title": "Avalanche",
                 "role": "Инди-разработчик",
@@ -223,7 +221,9 @@
                     "Удобство в управлении"
                 ],
                 "storeLinks": {}
-            },
+            }
+        ],
+        "inDevelopment": [
             {
                 "title": "Losses",
                 "role": "Инди-разработчик",
