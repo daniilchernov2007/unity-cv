@@ -24,7 +24,8 @@
         "visitWebsite": "Visit Website",
         "technologies": "Technologies",
         "inProgress": "In Development",
-        "released": "Released"
+        "released": "Released",
+        "experience": "Work Experience"
     },
     "ru": {
         "name": "Даниил Чернов",
@@ -51,6 +52,7 @@
         "visitWebsite": "Посетить сайт",
         "technologies": "Технологии",
         "inProgress": "В разработке",
-        "released": "Выпущен"
+        "released": "Выпущен",
+        "experience": "Опыт работы"
     }
 }

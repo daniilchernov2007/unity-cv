@@ -1,0 +1,28 @@
+﻿{
+  "en": [
+    {
+      "company": "CarrotHood",
+      "position": "Unity Developer",
+      "duration": "June 2024 – May 2025",
+      "responsibilities": [
+        "Developed 2D/3D mobile games in Unity",
+        "Integrated in-app purchases and ads",
+        "Collaborated with designers and testers",
+        "More than 10 updates of already released games"
+      ]
+    }
+  ],
+  "ru": [
+    {
+      "company": "CarrotHood",
+      "position": "Unity-разработчик",
+      "duration": "Июнь 2024 – Май 2025",
+      "responsibilities": [
+        "Разработка 2D/3D мобильных игр на Unity",
+        "Интеграция внутриигровых покупок и рекламы",
+        "Сотрудничество с дизайнерами и тестировщиками",
+        "Более 10 обновлений уже вышедших игр"
+      ]
+    }
+  ]
+}

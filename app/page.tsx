@@ -13,6 +13,7 @@ import { TbBrandRust } from "react-icons/tb"
 
 import translations from '../data/translations.json';
 import projectsData from '../data/projects.json';
+import experienceData from '../data/experience.json'
 
 // Custom Yandex Games icon component
 const YandexGamesIcon = () => (
@@ -217,6 +218,36 @@ export default function Resume() {
             </TabsContent>
           </Tabs>
         </main>
+
+        {/* Experience Section */}
+        <section className="container mx-auto py-12 border-t">
+          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
+            <Users className="h-5 w-5" />
+            {t.experience || "Experience"}
+          </h2>
+
+          <div className="space-y-6">
+            {experienceData[language as keyof typeof experienceData].map((exp, index) => (
+                <Card key={index}>
+                  <CardHeader>
+                    <CardTitle>{exp.company}</CardTitle>
+                    <CardDescription className="flex justify-between text-sm text-muted-foreground">
+                      <span>{exp.position}</span>
+                      <span>{exp.duration}</span>
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="list-disc list-inside text-sm space-y-1">
+                      {exp.responsibilities.map((task, i) => (
+                          <li key={i}>{task}</li>
+                      ))}
+                    </ul>
+                  </CardContent>
+                </Card>
+            ))}
+          </div>
+        </section>
+
 
         {/* Skills Section */}
         <section className="container mx-auto py-12 border-t">
