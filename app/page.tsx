@@ -131,10 +131,6 @@ function StoreLinks({ links }: { links?: Project["storeLinks"] }) {
 
 export default function Resume() {
   const getInitialLanguage = () => {
-    // Проверяем localStorage
-    const saved = localStorage.getItem('preferred-language')
-    if (saved) return saved
-
     // Определяем по браузеру
     const browserLang = navigator.language.toLowerCase()
     if (browserLang.startsWith('ru')) return 'ru'
