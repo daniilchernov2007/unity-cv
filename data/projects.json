@@ -184,6 +184,37 @@
                 "storeLinks": {
                     "itchIo": "https://smagoll.itch.io/avalanche"
                 }
+            },
+            {
+                "title": "Orb2048",
+                "role": "Indie Developer",
+                "description": "Hyper‑casual game where you combine numbered orbs inside a glass; merge orbs by the rules of 2048 to prevent them from spilling out.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "Addressables",
+                    "UniTask",
+                    "Reflex",
+                    "Custom Merge Logic"
+                ],
+                "date": "2025",
+                "team": "Solo Developer",
+                "image": "/images/orb2048.png",
+                "github": "",
+                "platforms": "Android, IOS, WebGL",
+                "responsibilities": [
+                    "Implemented merging system for orbs based on 2048 logic",
+                    "Designed smooth drop and stacking mechanics",
+                    "Developed intuitive drag‑and‑drop controls",
+                    "Optimized real‑time physics performance",
+                    "Crafted quick, addictive hyper‑casual loops"
+                ],
+                "features": [
+                    "Simple drag‑and‑drop merging",
+                    "Addictive 2048‑style progression",
+                    "Rising challenge as orbs stack higher"
+                ],
+                "storeLinks": {}
             }
         ]
     },
@@ -377,6 +408,37 @@
                     "Удивительная атмосфера",
                     "Живой мир",
                     "Игра с друзьми или другими игроками"
+                ],
+                "storeLinks": {}
+            },
+            {
+                "title": "Orb2048",
+                "role": "Инди‑разработчик",
+                "description": "Гиперказуальная игра, где в стакане комбинируешь числа по логике 2048, чтобы шары не вываливаются.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "Addressables",
+                    "UniTask",
+                    "Reflex",
+                    "Пользовательская логика объединения"
+                ],
+                "date": "2025",
+                "team": "Команда из 1 человека",
+                "image": "/images/orb2048.png",
+                "github": "",
+                "platforms": "Android, IOS, WebGL",
+                "responsibilities": [
+                    "Реализовал систему объединения шаров по механике 2048",
+                    "Разработал плавное падение и укладку шаров",
+                    "Создал интуитивную систему drag‑and‑drop",
+                    "Оптимизировал физику в реальном времени",
+                    "Сверстал короткие, затягивающие игровые сессии"
+                ],
+                "features": [
+                    "Простое перетаскивание и объединение",
+                    "Затягивающий прогресс по типу 2048",
+                    "Увеличивающаяся сложность по мере заполнения стакана"
                 ],
                 "storeLinks": {}
             }
