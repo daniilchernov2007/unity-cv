@@ -92,7 +92,65 @@
                     "Unpredictable world behavior",
                     "Easy and intuitive controls"
                 ],
-                "storeLinks": {}
+                "storeLinks": {
+                    "itchIo" : "https://smagoll.itch.io/avalanche"
+                }
+            },
+            {
+                "title": "Move animals!",
+                "role": "Gameplay and Technical Developer",
+                "description": "Control cute animals and dinosaurs..",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "YandexSDK"
+                ],
+                "date": "2024",
+                "team": "Team of 3",
+                "image": "/images/moveAnimals.jpg",
+                "github": "",
+                "platforms": "WebGL",
+                "responsibilities": [
+                    "Created all animations, effects, and shaders",
+                    "Refactor legacy code",
+                    "Optimized build size and game loading"
+                ],
+                "features": [
+                    "Ragdoll physics with partial joint simulation",
+                    "Variety of clouds and environments",
+                    "Fun and unpredictable gameplay"
+                ],
+                "storeLinks": {
+                    "yandexGames": "https://yandex.ru/games/developer/58612#app=283376"
+                }
+            },
+            {
+                "title": "Move body!",
+                "role": "Gameplay and Technical Developer",
+                "description": "Сontrol the puppets!",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "YandexSDK"
+                ],
+                "date": "2024",
+                "team": "Team of 3",
+                "image": "/images/moveBody.jpg",
+                "github": "",
+                "platforms": "WebGL",
+                "responsibilities": [
+                    "Created all animations, effects, and shaders",
+                    "Refactor legacy code",
+                    "Optimized build size and game loading"
+                ],
+                "features": [
+                    "Intuitive controls",
+                    "Cute animals and dinosaurs",
+                    "Funny ragdoll physics with realistic feedback"
+                ],
+                "storeLinks": {
+                    "yandexGames": "https://yandex.ru/games/developer/47326#app=271558"
+                }
             }
         ],
         "inDevelopment": [
@@ -224,6 +282,71 @@
                 ],
                 "storeLinks": {
                     "itchIo": "https://smagoll.itch.io/avalanche"
+                }
+            },
+            {
+                "title": "Двигай телом!",
+                "role": "Геймплей и технический разработчик",
+                "description": "Перетаскивай кукол за конечности, преодолевай ловушки и смейся над их неуклюжими падениями! Хаотичная, но увлекательная рэгдолл-аркада.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "YandexSDK",
+                    "Unity Physics",
+                    "DOTween",
+                    "Custom Physics Logic"
+                ],
+                "date": "2024",
+                "team": "Команда из 3 человек",
+                "image": "/images/moveBody.jpg",
+                "github": "",
+                "platforms": "WebGL",
+                "responsibilities": [
+                    "Создание всех анимаций, эффектов и физически-зависимых шейдеров",
+                    "Разработка системы перетаскивания с учётом физики суставов",
+                    "Настройка кривых движения и обратной связи через анимации",
+                    "Оптимизация производительности и стабильности рэгдоллов",
+                    "Поддержка плавной работы на мобильных браузерах"
+                ],
+                "features": [
+                    "Рэгдолл-физика с частичной симуляцией суставов",
+                    "Разнообразие препятствий и окружения",
+                    "Весёлый и непредсказуемый геймплей"
+                ],
+                "storeLinks": {
+                    "yandexGames": "https://yandex.ru/games/developer/47326#app=271558"
+                }
+            },
+            {
+                "title": "Двигай лапой!",
+                "role": "Геймплей и технический разработчик",
+                "description": "Управляй милыми животными и динозаврами, перетаскивая их за конечности! Весёлая физическая головоломка с рэгдоллами и неожиданным поведением.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "YandexSDK",
+                    "DOTween",
+                    "Custom Physics Logic"
+                ],
+                "date": "2024",
+                "team": "Команда из 3 человек",
+                "image": "/images/moveAnimals.jpg",
+                "github": "",
+                "platforms": "WebGL",
+                "responsibilities": [
+                    "Создание всех анимаций, эффектов и кастомных шейдеров",
+                    "Реализация уникальной логики физики конечностей",
+                    "Настройка взаимодействий с коллизиями и триггерами",
+                    "Оптимизация под WebGL: уменьшение веса ассетов и ускорение загрузки",
+                    "Рефакторинг унаследованного кода и интеграция асинхронной логики"
+                ],
+                "features": [
+                    "Интуитивное управление",
+                    "Милые животные и динозавры",
+                    "Забавная рэгдолл-физика с реалистичной отдачей"
+                ],
+                "storeLinks": {
+                    "yandexGames": "https://yandex.ru/games/developer/58612#app=283376"
                 }
             }
         ],

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, createContext, useContext } from "react"
+import {useState, createContext, useContext, useEffect} from "react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -17,10 +17,12 @@ import experienceData from '../data/experience.json'
 
 // Custom Yandex Games icon component
 const YandexGamesIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor" className="w-6 h-6">
-    <path d="M25 2C12.317 2 2 12.317 2 25s10.317 23 23 23 23-10.317 23-23S37.683 2 25 2zm-7 33V15h4.5l9 13.5V15H36v20h-4.5L22 21.5V35h-4z" />
-  </svg>
-)
+    <img
+        src="https://yastatic.net/s3/doc-binary/src/support/games/en/files/logo-en-short.svg"
+        alt="Yandex Games"
+        className="w-20 h-8"
+    />
+);
 
 // Language context
 const LanguageContext = createContext({
@@ -128,11 +130,34 @@ function StoreLinks({ links }: { links?: Project["storeLinks"] }) {
 }
 
 export default function Resume() {
+  const getInitialLanguage = () => {
+    // Проверяем localStorage
+    const saved = localStorage.getItem('preferred-language')
+    if (saved) return saved
+
+    // Определяем по браузеру
+    const browserLang = navigator.language.toLowerCase()
+    if (browserLang.startsWith('ru')) return 'ru'
+    return 'en'
+  }
+  
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
-  const [language, setLanguage] = useState("en")
+  const [language, setLanguage] = useState(getInitialLanguage)
 
   const t = translations[language as keyof typeof translations]
   const projects = projectsData[language as keyof typeof projectsData]
+
+  useEffect(() => {
+    localStorage.setItem('preferred-language', language)
+  }, [language])
+
+  useEffect(() => {
+    const title = language === 'ru' ? 'Данил Чернов - Unity Разработчик' : 'Daniil Chernov - Unity Developer'
+    document.title = title
+
+    const description = t.about
+    document.querySelector('meta[name="description"]')?.setAttribute('content', description)
+  }, [language, t.about])
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
