@@ -25,7 +25,12 @@
         "technologies": "Technologies",
         "inProgress": "In Development",
         "released": "Released",
-        "experience": "Work Experience"
+        "experience": "Work Experience",
+        "featuredProject": "Ongoing project",
+        "featured": "Featured",
+        "viewDetails": "View Details",
+        "codeSample": "Code Sample / In Development",
+        "inDevelopmentFeatured": "In development — view as a code sample"
     },
     "ru": {
         "name": "Даниил Чернов",
@@ -53,6 +58,11 @@
         "technologies": "Технологии",
         "inProgress": "В разработке",
         "released": "Выпущен",
-        "experience": "Опыт работы"
+        "experience": "Опыт работы",
+        "featuredProject": "Незаконченный проект",
+        "featured": "Главный",
+        "viewDetails": "Подробнее",
+        "codeSample": "Пример кода / В разработке",
+        "inDevelopmentFeatured": "В разработке — смотрите как пример кода"
     }
 }

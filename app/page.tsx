@@ -198,6 +198,72 @@ export default function Resume() {
           </div>
         </header>
 
+        {/* Featured Project Section */}
+        <section className="container mx-auto py-12">
+          <h2 className="text-2xl font-bold mb-8 flex items-center justify-center gap-2">
+            🌟 {t.featuredProject || "Избранный проект"}
+          </h2>
+
+          {projects.inDevelopment.length > 0 && (
+              <Card
+                  className="overflow-hidden relative border-2 border-yellow-400/40 shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer"
+                  onClick={() => setSelectedProject(projects.inDevelopment[0])}
+              >
+                {/* Бейдж "Code Sample / In Development" */}
+                <Badge className="absolute top-3 left-3 bg-yellow-500 text-white z-10 shadow-md">
+                  {t.codeSample || "Пример кода / В разработке"}
+                </Badge>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {/* Картинка */}
+                  <div className="aspect-video w-full overflow-hidden">
+                    <img
+                        src={projects.inDevelopment[0].image}
+                        alt={projects.inDevelopment[0].title}
+                        className="object-cover w-full h-full transition-transform hover:scale-105"
+                    />
+                  </div>
+
+                  {/* Описание + код */}
+                  <div className="flex flex-col justify-between p-6">
+                    <div>
+                      <h3 className="text-xl font-bold">{projects.inDevelopment[0].title}</h3>
+                      <p className="text-yellow-700 mt-2 font-semibold">
+                        {t.inDevelopment || "В разработке — смотрите как пример кода"}
+                      </p>
+                      <p className="text-muted-foreground mt-2">{projects.inDevelopment[0].description}</p>
+
+                      {/* Технологии */}
+                      <div className="flex flex-wrap gap-2 mt-4">
+                        {projects.inDevelopment[0].technologies.map((tech) => (
+                            <Badge key={tech} variant="outline">
+                              {tech}
+                            </Badge>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Кнопки */}
+                    <div className="flex gap-3 mt-6">
+                      {projects.inDevelopment[0].github && (
+                          <a href={projects.inDevelopment[0].github} target="_blank" rel="noopener noreferrer">
+                            <Button className="flex items-center gap-2 bg-gray-900 text-white hover:bg-gray-700">
+                              <Github className="h-4 w-4" />
+                              {t.viewOnGitHub || "Посмотреть код"}
+                            </Button>
+                          </a>
+                      )}
+                      <Button variant="outline">
+                        {t.viewDetails || "Подробнее"}
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+          )}
+        </section>
+
+
         {/* Main Content */}
         <main className="container mx-auto py-6">
           <Tabs defaultValue="published" className="w-full">

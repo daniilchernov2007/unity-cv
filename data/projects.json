@@ -151,39 +151,6 @@
                 "storeLinks": {
                     "yandexGames": "https://yandex.ru/games/developer/47326#app=271558"
                 }
-            }
-        ],
-        "inDevelopment": [
-            {
-                "title": "Losses",
-                "role": "Indie Developer",
-                "description": "Social deduction game set on an island where players must find the killers to survive.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "Addressables",
-                    "Zenject",
-                    "Blender"
-                ],
-                "date": "2026-2030",
-                "team": "Solo Developer",
-                "image": "/images/losses.jpg",
-                "github": "",
-                "platforms": "PC",
-                "responsibilities": [
-                    "Creating multiplayer functionality",
-                    "Developing mini-game mechanics",
-                    "Designing the game’s storyline",
-                    "Designing the entire game from mechanics to visuals"
-                ],
-                "features": [
-                    "Immersive atmosphere",
-                    "Living world",
-                    "Play with friends or other players"
-                ],
-                "storeLinks": {
-                    "itchIo": "https://smagoll.itch.io/avalanche"
-                }
             },
             {
                 "title": "Orb2048",
@@ -214,7 +181,75 @@
                     "Addictive 2048‑style progression",
                     "Rising challenge as orbs stack higher"
                 ],
+                "storeLinks": {
+                    "yandexGames": "https://yandex.ru/games/app/453891?lang=ru"
+                }
+            }
+        ],
+        "inDevelopment": [
+            {
+                "title": "Untitled Soulslike",
+                "role": "Indie Developer",
+                "description": "A soulslike game focused on combat mechanics, scalable architecture, and advanced enemy AI. Each enemy has unique behavior based on BT and FSM. By simply adding a controller, an enemy can be seamlessly integrated into the system. During development, I gained extensive experience working with animations (IK, animation events, curves).",
+                "technologies": [
+                    "Unity",
+                    "NavMesh",
+                    "UniTask",
+                    "Zenject",
+                    "NodeCanvas",
+                    "DOTween"
+                ],
+                "date": "2025",
+                "team": "Solo development",
+                "image": "/images/untitled.jpg",
+                "github": "https://github.com/smagoll/illusion_flash",
+                "platforms": "PC",
+                "responsibilities": [
+                    "Developed a scalable enemy AI architecture based on BT and FSM",
+                    "Created a controller system that allows quick integration of new enemies",
+                    "Worked extensively with the animation system using IK, animation events, and curves",
+                    "Implemented enemy navigation using Unity NavMesh",
+                    "Integrated UniTask and Zenject for code optimization and maintainability"
+                ],
+                "features": [
+                    "Soulslike combat system with dodges and counterattacks",
+                    "Enemies with complex behavior powered by BT and FSM",
+                    "Easily extensible architecture for adding new enemies and mechanics",
+                    "Use of IK, events, and curves in the animation system",
+                    "Controller-based system: add an enemy and it’s ready to fight"
+                ],
                 "storeLinks": {}
+            },
+            {
+                "title": "Losses",
+                "role": "Indie Developer",
+                "description": "Social deduction game set on an island where players must find the killers to survive.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "Addressables",
+                    "Zenject",
+                    "Blender"
+                ],
+                "date": "2026-2030",
+                "team": "Solo Developer",
+                "image": "/images/losses.jpg",
+                "github": "",
+                "platforms": "PC",
+                "responsibilities": [
+                    "Creating multiplayer functionality",
+                    "Developing mini-game mechanics",
+                    "Designing the game’s storyline",
+                    "Designing the entire game from mechanics to visuals"
+                ],
+                "features": [
+                    "Immersive atmosphere",
+                    "Living world",
+                    "Play with friends or other players"
+                ],
+                "storeLinks": {
+                    "itchIo": "https://smagoll.itch.io/avalanche"
+                }
             }
         ]
     },
@@ -379,37 +414,6 @@
                 "storeLinks": {
                     "yandexGames": "https://yandex.ru/games/developer/58612#app=283376"
                 }
-            }
-        ],
-        "inDevelopment": [
-            {
-                "title": "Losses",
-                "role": "Инди-разработчик",
-                "description": "Игра в жанре социальной дедукции. Действие игры происходит на острове, где необходимо найти убийц, чтобы выжить.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "Addressables",
-                    "Zenject",
-                    "Blender"
-                ],
-                "date": "2026-2030",
-                "team": "Команда из 1 человека",
-                "image": "/images/losses.jpg",
-                "github": "",
-                "platforms": "PC",
-                "responsibilities": [
-                    "Создание мультиплеера",
-                    "Разработка механики мини-игр",
-                    "Продумывание истории игры",
-                    "Создание дизайна всей игры от механик до внешнего вида"
-                ],
-                "features": [
-                    "Удивительная атмосфера",
-                    "Живой мир",
-                    "Игра с друзьми или другими игроками"
-                ],
-                "storeLinks": {}
             },
             {
                 "title": "Orb2048",
@@ -439,6 +443,72 @@
                     "Простое перетаскивание и объединение",
                     "Затягивающий прогресс по типу 2048",
                     "Увеличивающаяся сложность по мере заполнения стакана"
+                ],
+                "storeLinks": {
+                    "yandexGames": "https://yandex.ru/games/app/453891?lang=ru"
+                }
+            }
+        ],
+        "inDevelopment": [
+            {
+                "title": "Untitled Soulslike",
+                "role": "Инди-разработчик",
+                "description": "Soulslike-игра с упором на боевую систему, масштабируемую архитектуру и проработанных врагов. У каждого противника собственное поведение, построенное на BT и FSM. Достаточно добавить контроллер, и враг автоматически интегрируется в систему. В процессе разработки получил большой опыт работы с анимациями (IK, ивенты, анимационные кривые).",
+                "technologies": [
+                    "Unity",
+                    "NavMesh",
+                    "UniTask",
+                    "Zenject",
+                    "NodeCanvas",
+                    "DOTween"
+                ],
+                "date": "2025",
+                "team": "Соло-разработка",
+                "image": "/images/untitled.jpg",
+                "github": "https://github.com/smagoll/illusion_flash",
+                "platforms": "PC",
+                "responsibilities": [
+                    "Разработал масштабируемую архитектуру AI врагов на основе BT и FSM",
+                    "Создал систему контроллеров, позволяющую быстро добавлять новых противников",
+                    "Проработал систему анимаций с использованием IK, ивентов и анимационных кривых",
+                    "Реализовал навигацию врагов с использованием Unity NavMesh",
+                    "Интегрировал UniTask и Zenject для оптимизации кода и удобства поддержки"
+                ],
+                "features": [
+                    "Soulslike-боевая система с уклонениями и контратаками",
+                    "Противники со сложным поведением на основе BT и FSM",
+                    "Легко расширяемая архитектура для добавления новых врагов и механик",
+                    "Использование IK, ивентов и кривых в системе анимаций",
+                    "Система контроллеров: добавь врага — и он готов к бою"
+                ],
+                "storeLinks": {}
+            },
+            {
+                "title": "Losses",
+                "role": "Инди-разработчик",
+                "description": "Игра в жанре социальной дедукции. Действие игры происходит на острове, где необходимо найти убийц, чтобы выжить.",
+                "technologies": [
+                    "Unity",
+                    "Shader Graph",
+                    "Addressables",
+                    "Zenject",
+                    "Blender"
+                ],
+                "date": "2026-2030",
+                "team": "Команда из 1 человека",
+                "image": "/images/losses.jpg",
+                "github": "",
+                "platforms": "PC",
+                "responsibilities": [
+                    "Создание мультиплеера",
+                    "Разработка механики мини-игр",
+                    "Продумывание истории игры",
+                    "Создание дизайна всей игры от механик до внешнего вида"
+                ],
+                "features": [
+                    "Удивительная атмосфера",
+                    "Живой мир",
+                    "Игра с друзьми или другими игроками"
                 ],
                 "storeLinks": {}
             }
