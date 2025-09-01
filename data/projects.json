@@ -65,6 +65,41 @@
                 }
             },
             {
+                "title": "Quiz",
+                "role": "Gameplay and Technical Developer",
+                "description": "A question-and-answer style game.",
+                "technologies": [
+                    "DOTween",
+                    "Shader Graph",
+                    "Hot Reload",
+                    "Figma",
+                    "Addressables",
+                    "YandexSDK"
+                ],
+                "date": "2025",
+                "team": "Team of 4 people",
+                "image": "/images/quiz.png",
+                "github": "",
+                "platforms": "WebGL",
+                "responsibilities": [
+                    "Fully implemented all mechanics",
+                    "Created all animations, effects, and shaders",
+                    "Implemented and designed the entire structure of game modes",
+                    "Optimized build size and game launch",
+                    "Developed a scalable system that makes it very easy to add new questions and modes",
+                    "Designed and implemented two user interfaces for PC and Android"
+                ],
+                "features": [
+                    "Over 100 questions",
+                    "Daily and weekly challenges",
+                    "Responsive interface",
+                    "Variety of game modes"
+                ],
+                "storeLinks": {
+                    "yandexGames": "https://yandex.ru/games/app/462858#app-id=462858&catalog-session-uid=catalog-9a541ed9-dfb4-53f1-a791-459d46265ca8-1756749832668-57ea&rtx-reqid=13107077350572084560&pos=%7B%22listType%22%3A%22suggested%22%2C%22tabCategory%22%3A%22search%22%7D&redir-data=%7B%22block%22%3A%22search%22%2C%22block_index%22%3A0%2C%22card%22%3A%22adaptive_recommended_new%22%2C%22col%22%3A0%2C%22first_screen%22%3A1%2C%22page%22%3A%22search%22%2C%22row%22%3A0%2C%22rtx_reqid%22%3A%229656770415947737947%22%2C%22same_block_index%22%3A0%2C%22wrapper%22%3A%22grid-list%22%2C%22request_id%22%3A%221756749905892743-14725115514267410509-mv2eeqenp4thmy4c-BAL%22%2C%22games_request_id%22%3A%221756749905857948-2896028396139115068-balancer-l7leveler-kubr-yp-sas-95-BAL%22%2C%22http_ref%22%3A%22https%253A%252F%252Fyandex.ru%252Fgames%252Fsearch%253Fquery%253D%2525D0%2525B2%2525D0%2525BE%2525D0%2525BF%2525D1%252580%2525D0%2525BE%2525D1%252581%252520%2525D0%2525B4%2525D0%2525BD%2525D1%25258F%22%2C%22rn%22%3A223428856%7D&search_query=%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%20%D0%B4%D0%BD%D1%8F"
+                }
+            },
+            {
                 "title": "Avalanche",
                 "role": "Indie Developer",
                 "description": "Arcade game with randomly generated levels. Unique gameplay and a variety of actions.",
@@ -319,6 +354,41 @@
                 }
             },
             {
+                "title": "Quiz",
+                "role": "Геймплей и технический разработчик",
+                "description": "Игра в жанре вопрос-ответ.",
+                "technologies": [
+                    "DOTween",
+                    "Shader Graph",
+                    "Hot Reload",
+                    "Figma",
+                    "Addressables",
+                    "YandexSDK"
+                ],
+                "date": "2025",
+                "team": "Команда из 4 человек",
+                "image": "/images/quiz.png",
+                "github": "",
+                "platforms": "WebGL",
+                "responsibilities": [
+                    "Полностью реализовал все механики",
+                    "Создал все анимации, эффекты и шейдеры",
+                    "Реализовал и создал всю структуру режимов",
+                    "Оптимизировал размер билда и запуск игры",
+                    "Сделал масштабируемую систему, в которую очень легко добавить новые вопросы и режимы",
+                    "Верстка и реализация двух интерфейсов для ПК и Андроид"
+                ],
+                "features": [
+                    "Больше 100 вопросов",
+                    "Ежедневные и еженедельные задания",
+                    "Отзывчивый интерфейс",
+                    "Разнообразие режимов"
+                ],
+                "storeLinks": {
+                    "yandexGames": "https://yandex.ru/games/app/462858#app-id=462858&catalog-session-uid=catalog-9a541ed9-dfb4-53f1-a791-459d46265ca8-1756749832668-57ea&rtx-reqid=13107077350572084560&pos=%7B%22listType%22%3A%22suggested%22%2C%22tabCategory%22%3A%22search%22%7D&redir-data=%7B%22block%22%3A%22search%22%2C%22block_index%22%3A0%2C%22card%22%3A%22adaptive_recommended_new%22%2C%22col%22%3A0%2C%22first_screen%22%3A1%2C%22page%22%3A%22search%22%2C%22row%22%3A0%2C%22rtx_reqid%22%3A%229656770415947737947%22%2C%22same_block_index%22%3A0%2C%22wrapper%22%3A%22grid-list%22%2C%22request_id%22%3A%221756749905892743-14725115514267410509-mv2eeqenp4thmy4c-BAL%22%2C%22games_request_id%22%3A%221756749905857948-2896028396139115068-balancer-l7leveler-kubr-yp-sas-95-BAL%22%2C%22http_ref%22%3A%22https%253A%252F%252Fyandex.ru%252Fgames%252Fsearch%253Fquery%253D%2525D0%2525B2%2525D0%2525BE%2525D0%2525BF%2525D1%252580%2525D0%2525BE%2525D1%252581%252520%2525D0%2525B4%2525D0%2525BD%2525D1%25258F%22%2C%22rn%22%3A223428856%7D&search_query=%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%20%D0%B4%D0%BD%D1%8F"
+                }
+            },
+            {
                 "title": "Avalanche",
                 "role": "Инди-разработчик",
                 "description": "Игра в жанре аркады с прохождением рандомно генерируемых уровней. Уникальный геймплей и разнообразие действий.",
@@ -326,7 +396,6 @@
                     "Unity",
                     "Shader Graph",
                     "Addressables",
-                    "Zenject",
                     "Blender",
                     "Unity Jobs"
                 ],
