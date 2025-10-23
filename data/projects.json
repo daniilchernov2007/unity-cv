@@ -1,586 +1,603 @@
 {
-    "en": {
-        "published": [
-            {
-                "title": "Aristocrasy",
-                "role": "Indie Developer",
-                "description": "Roguelike game with an infinitely generated map and levels, as well as many upgrades.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "Visual Shader Graph",
-                    "2D Art"
-                ],
-                "date": "2024",
-                "team": "Solo Developer",
-                "image": "/images/aristocrasy.jpeg",
-                "github": "https://github.com/smagoll/roguelike",
-                "platforms": "Android",
-                "responsibilities": [
-                    "Developed and implemented the chunk system",
-                    "Optimized rendering and code",
-                    "Implemented the abilities system",
-                    "First released game, experience with publishing"
-                ],
-                "features": [
-                    "Variety of weapons, abilities, and heroes",
-                    "Endless mode",
-                    "Progressive enemy difficulty increase"
-                ],
-                "storeLinks": {
-                    "appGallery": "https://appgallery.cloud.huawei.com/ag/n/app/C110498811?locale=en_US&source=appshare&subsource=C110498811&shareTo=com.android.chrome&shareFrom=appmarket&shareIds=bec52d58749d4c19abfe408751631d01_com.android.chrome&callType=SHARE",
-                    "ruStore": "https://www.rustore.ru/catalog/app/aristocrasy.apk",
-                    "itchIo": "https://smagoll.itch.io/aristocrasy"
-                }
-            },
-            {
-                "title": "HexaSort",
-                "role": "Gameplay and Technical Developer",
-                "description": "Puzzle game with over 100 levels, quest system, and leaderboard.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "Addressables",
-                    "YandexSDK"
-                ],
-                "date": "2024",
-                "team": "Team of 3",
-                "image": "/images/hexaSort.png",
-                "github": "",
-                "platforms": "WebGL",
-                "responsibilities": [
-                    "Fully implemented all mechanics",
-                    "Created all animations, effects, and shaders",
-                    "Implemented the quest and island system",
-                    "Optimized build size and game loading"
-                ],
-                "features": [
-                    "Variety of tile types",
-                    "Daily and weekly quests",
-                    "More than 100 levels",
-                    "Island upgrading system"
-                ],
-                "storeLinks": {
-                    "yandexGames": "https://yandex.ru/games/app/371625#app-id=371625"
-                }
-            },
-            {
-                "title": "Quiz",
-                "role": "Gameplay and Technical Developer",
-                "description": "A question-and-answer style game.",
-                "technologies": [
-                    "DOTween",
-                    "Shader Graph",
-                    "Hot Reload",
-                    "Figma",
-                    "Addressables",
-                    "YandexSDK"
-                ],
-                "date": "2025",
-                "team": "Team of 4 people",
-                "image": "/images/quiz.png",
-                "github": "",
-                "platforms": "WebGL",
-                "responsibilities": [
-                    "Fully implemented all mechanics",
-                    "Created all animations, effects, and shaders",
-                    "Implemented and designed the entire structure of game modes",
-                    "Optimized build size and game launch",
-                    "Developed a scalable system that makes it very easy to add new questions and modes",
-                    "Designed and implemented two user interfaces for PC and Android"
-                ],
-                "features": [
-                    "Over 100 questions",
-                    "Daily and weekly challenges",
-                    "Responsive interface",
-                    "Variety of game modes"
-                ],
-                "storeLinks": {
-                    "yandexGames": "https://yandex.ru/games/app/462858#app-id=462858&catalog-session-uid=catalog-9a541ed9-dfb4-53f1-a791-459d46265ca8-1756749832668-57ea&rtx-reqid=13107077350572084560&pos=%7B%22listType%22%3A%22suggested%22%2C%22tabCategory%22%3A%22search%22%7D&redir-data=%7B%22block%22%3A%22search%22%2C%22block_index%22%3A0%2C%22card%22%3A%22adaptive_recommended_new%22%2C%22col%22%3A0%2C%22first_screen%22%3A1%2C%22page%22%3A%22search%22%2C%22row%22%3A0%2C%22rtx_reqid%22%3A%229656770415947737947%22%2C%22same_block_index%22%3A0%2C%22wrapper%22%3A%22grid-list%22%2C%22request_id%22%3A%221756749905892743-14725115514267410509-mv2eeqenp4thmy4c-BAL%22%2C%22games_request_id%22%3A%221756749905857948-2896028396139115068-balancer-l7leveler-kubr-yp-sas-95-BAL%22%2C%22http_ref%22%3A%22https%253A%252F%252Fyandex.ru%252Fgames%252Fsearch%253Fquery%253D%2525D0%2525B2%2525D0%2525BE%2525D0%2525BF%2525D1%252580%2525D0%2525BE%2525D1%252581%252520%2525D0%2525B4%2525D0%2525BD%2525D1%25258F%22%2C%22rn%22%3A223428856%7D&search_query=%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%20%D0%B4%D0%BD%D1%8F"
-                }
-            },
-            {
-                "title": "Avalanche",
-                "role": "Indie Developer",
-                "description": "Arcade game with randomly generated levels. Unique gameplay and a variety of actions.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "Addressables",
-                    "Zenject",
-                    "Blender",
-                    "Unity Jobs"
-                ],
-                "date": "2025",
-                "team": "Solo Developer",
-                "image": "/images/avalanche.png",
-                "github": "",
-                "platforms": "Android, IOS, WebGL",
-                "responsibilities": [
-                    "Creating randomly generated tracks",
-                    "Creating 3D models",
-                    "Developing UI/UX",
-                    "Optimizing heavy operations"
-                ],
-                "features": [
-                    "Variety of player actions",
-                    "Unpredictable world behavior",
-                    "Easy and intuitive controls"
-                ],
-                "storeLinks": {
-                    "itchIo" : "https://smagoll.itch.io/avalanche"
-                }
-            },
-            {
-                "title": "Move animals!",
-                "role": "Gameplay and Technical Developer",
-                "description": "Control cute animals and dinosaurs..",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "YandexSDK"
-                ],
-                "date": "2024",
-                "team": "Team of 3",
-                "image": "/images/moveAnimals.jpg",
-                "github": "",
-                "platforms": "WebGL",
-                "responsibilities": [
-                    "Created all animations, effects, and shaders",
-                    "Refactor legacy code",
-                    "Optimized build size and game loading"
-                ],
-                "features": [
-                    "Ragdoll physics with partial joint simulation",
-                    "Variety of clouds and environments",
-                    "Fun and unpredictable gameplay"
-                ],
-                "storeLinks": {
-                    "yandexGames": "https://yandex.ru/games/developer/58612#app=283376"
-                }
-            },
-            {
-                "title": "Move body!",
-                "role": "Gameplay and Technical Developer",
-                "description": "Сontrol the puppets!",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "YandexSDK"
-                ],
-                "date": "2024",
-                "team": "Team of 3",
-                "image": "/images/moveBody.jpg",
-                "github": "",
-                "platforms": "WebGL",
-                "responsibilities": [
-                    "Created all animations, effects, and shaders",
-                    "Refactor legacy code",
-                    "Optimized build size and game loading"
-                ],
-                "features": [
-                    "Intuitive controls",
-                    "Cute animals and dinosaurs",
-                    "Funny ragdoll physics with realistic feedback"
-                ],
-                "storeLinks": {
-                    "yandexGames": "https://yandex.ru/games/developer/47326#app=271558"
-                }
-            },
-            {
-                "title": "Orb2048",
-                "role": "Indie Developer",
-                "description": "Hyper‑casual game where you combine numbered orbs inside a glass; merge orbs by the rules of 2048 to prevent them from spilling out.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "Addressables",
-                    "UniTask",
-                    "Reflex",
-                    "Custom Merge Logic"
-                ],
-                "date": "2025",
-                "team": "Solo Developer",
-                "image": "/images/orb2048.png",
-                "github": "",
-                "platforms": "Android, IOS, WebGL",
-                "responsibilities": [
-                    "Implemented merging system for orbs based on 2048 logic",
-                    "Designed smooth drop and stacking mechanics",
-                    "Developed intuitive drag‑and‑drop controls",
-                    "Optimized real‑time physics performance",
-                    "Crafted quick, addictive hyper‑casual loops"
-                ],
-                "features": [
-                    "Simple drag‑and‑drop merging",
-                    "Addictive 2048‑style progression",
-                    "Rising challenge as orbs stack higher"
-                ],
-                "storeLinks": {
-                    "yandexGames": "https://yandex.ru/games/app/453891?lang=ru"
-                }
-            }
+  "en": {
+    "published": [
+      {
+        "title": "Aristocrasy",
+        "role": "Indie Developer",
+        "description": "Roguelike game with an infinitely generated map and levels, as well as many upgrades.",
+        "technologies": [
+          "Unity",
+          "Shader Graph",
+          "Visual Shader Graph",
+          "2D Art"
         ],
-        "inDevelopment": [
-            {
-                "title": "Untitled Soulslike",
-                "role": "Indie Developer",
-                "description": "A soulslike game focused on combat mechanics, scalable architecture, and advanced enemy AI. Each enemy has unique behavior based on BT and FSM. By simply adding a controller, an enemy can be seamlessly integrated into the system. During development, I gained extensive experience working with animations (IK, animation events, curves).",
-                "technologies": [
-                    "Unity",
-                    "NavMesh",
-                    "UniTask",
-                    "Zenject",
-                    "NodeCanvas",
-                    "DOTween"
-                ],
-                "date": "2025",
-                "team": "Solo development",
-                "image": "/images/untitled.jpg",
-                "github": "https://github.com/smagoll/illusion_flash",
-                "platforms": "PC",
-                "responsibilities": [
-                    "Developed a scalable enemy AI architecture based on BT and FSM",
-                    "Created a controller system that allows quick integration of new enemies",
-                    "Worked extensively with the animation system using IK, animation events, and curves",
-                    "Implemented enemy navigation using Unity NavMesh",
-                    "Integrated UniTask and Zenject for code optimization and maintainability"
-                ],
-                "features": [
-                    "Soulslike combat system with dodges and counterattacks",
-                    "Enemies with complex behavior powered by BT and FSM",
-                    "Easily extensible architecture for adding new enemies and mechanics",
-                    "Use of IK, events, and curves in the animation system",
-                    "Controller-based system: add an enemy and it’s ready to fight"
-                ],
-                "storeLinks": {}
-            },
-            {
-                "title": "Losses",
-                "role": "Indie Developer",
-                "description": "Social deduction game set on an island where players must find the killers to survive.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "Addressables",
-                    "Zenject",
-                    "Blender"
-                ],
-                "date": "2026-2030",
-                "team": "Solo Developer",
-                "image": "/images/losses.jpg",
-                "github": "",
-                "platforms": "PC",
-                "responsibilities": [
-                    "Creating multiplayer functionality",
-                    "Developing mini-game mechanics",
-                    "Designing the game’s storyline",
-                    "Designing the entire game from mechanics to visuals"
-                ],
-                "features": [
-                    "Immersive atmosphere",
-                    "Living world",
-                    "Play with friends or other players"
-                ],
-                "storeLinks": {
-                    "itchIo": "https://smagoll.itch.io/avalanche"
-                }
-            }
-        ]
-    },
-    "ru": {
-        "published": [
-            {
-                "title": "Aristocrasy",
-                "role": "Инди-разработчик",
-                "description": "Игра в жанре рогалик с бесконечно генерируемой картой и уровнями, а также множество улучшений.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "Visual Shader Graph",
-                    "2D Art"
-                ],
-                "date": "2024",
-                "team": "Команда из 1 человека",
-                "image": "/images/aristocrasy.jpeg",
-                "github": "https://github.com/smagoll/roguelike",
-                "platforms": "Android",
-                "responsibilities": [
-                    "Разработал и реализовал систему чанков",
-                    "Оптимизировал рендеринг и код",
-                    "Реализовал систему способностей",
-                    "Первая выпущенная игра, опыт с публикацией"
-                ],
-                "features": [
-                    "Разнообразие оружий, способностей и героев",
-                    "Бесконечный режим",
-                    "Прогрессивное усиление врагов"
-                ],
-                "storeLinks": {
-                    "appGallery": "https://appgallery.cloud.huawei.com/ag/n/app/C110498811?locale=en_US&source=appshare&subsource=C110498811&shareTo=com.android.chrome&shareFrom=appmarket&shareIds=bec52d58749d4c19abfe408751631d01_com.android.chrome&callType=SHARE",
-                    "ruStore": "https://www.rustore.ru/catalog/app/aristocrasy.apk",
-                    "itchIo": "https://smagoll.itch.io/aristocrasy"
-                }
-            },
-            {
-                "title": "HexaSort",
-                "role": "Геймплей и технический разработчик",
-                "description": "Игра в жанре головоломки с более чем 100 уровнями, системой квестов, таблицей лидеров.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "Addressables",
-                    "YandexSDK"
-                ],
-                "date": "2024",
-                "team": "Команда из 3 человек",
-                "image": "/images/hexaSort.png",
-                "github": "",
-                "platforms": "WebGL",
-                "responsibilities": [
-                    "Полностью реализовал все механики",
-                    "Создал все анимации, эффекты и шейдеры",
-                    "Реализовал систему квестов и островов",
-                    "Оптимизировал размер билда и запуск игры"
-                ],
-                "features": [
-                    "Разнообразие видов плиток",
-                    "Ежедневные и еженедельные квесты",
-                    "Больше 100 уровней",
-                    "Прокачка островов"
-                ],
-                "storeLinks": {
-                    "yandexGames": "https://yandex.ru/games/app/371625#app-id=371625&catalog-session-uid=catalog-9a541ed9-dfb4-53f1-a791-459d46265ca8-1739857761552-1321&rtx-reqid=11440383696854432006&pos=%7B%22listType%22%3A%22played%22%2C%22tabCategory%22%3A%22common%22%7D&redir-data=%7B%22block%22%3A%22played%22%2C%22block_index%22%3A0%2C%22card%22%3A%22your_games%22%2C%22col%22%3A3%2C%22first_screen%22%3A1%2C%22page%22%3A%22main%22%2C%22rn%22%3A118453333%2C%22row%22%3A0%2C%22rtx_reqid%22%3A%2211440383696854432006%22%2C%22same_block_index%22%3A0%2C%22wrapper%22%3A%22played_games%22%2C%22http_ref%22%3A%22https%253A%252F%252Fyandex.ru%252Fgames%252F%22%7D"
-                }
-            },
-            {
-                "title": "Quiz",
-                "role": "Геймплей и технический разработчик",
-                "description": "Игра в жанре вопрос-ответ.",
-                "technologies": [
-                    "DOTween",
-                    "Shader Graph",
-                    "Hot Reload",
-                    "Figma",
-                    "Addressables",
-                    "YandexSDK"
-                ],
-                "date": "2025",
-                "team": "Команда из 4 человек",
-                "image": "/images/quiz.png",
-                "github": "",
-                "platforms": "WebGL",
-                "responsibilities": [
-                    "Полностью реализовал все механики",
-                    "Создал все анимации, эффекты и шейдеры",
-                    "Реализовал и создал всю структуру режимов",
-                    "Оптимизировал размер билда и запуск игры",
-                    "Сделал масштабируемую систему, в которую очень легко добавить новые вопросы и режимы",
-                    "Верстка и реализация двух интерфейсов для ПК и Андроид"
-                ],
-                "features": [
-                    "Больше 100 вопросов",
-                    "Ежедневные и еженедельные задания",
-                    "Отзывчивый интерфейс",
-                    "Разнообразие режимов"
-                ],
-                "storeLinks": {
-                    "yandexGames": "https://yandex.ru/games/app/462858#app-id=462858&catalog-session-uid=catalog-9a541ed9-dfb4-53f1-a791-459d46265ca8-1756749832668-57ea&rtx-reqid=13107077350572084560&pos=%7B%22listType%22%3A%22suggested%22%2C%22tabCategory%22%3A%22search%22%7D&redir-data=%7B%22block%22%3A%22search%22%2C%22block_index%22%3A0%2C%22card%22%3A%22adaptive_recommended_new%22%2C%22col%22%3A0%2C%22first_screen%22%3A1%2C%22page%22%3A%22search%22%2C%22row%22%3A0%2C%22rtx_reqid%22%3A%229656770415947737947%22%2C%22same_block_index%22%3A0%2C%22wrapper%22%3A%22grid-list%22%2C%22request_id%22%3A%221756749905892743-14725115514267410509-mv2eeqenp4thmy4c-BAL%22%2C%22games_request_id%22%3A%221756749905857948-2896028396139115068-balancer-l7leveler-kubr-yp-sas-95-BAL%22%2C%22http_ref%22%3A%22https%253A%252F%252Fyandex.ru%252Fgames%252Fsearch%253Fquery%253D%2525D0%2525B2%2525D0%2525BE%2525D0%2525BF%2525D1%252580%2525D0%2525BE%2525D1%252581%252520%2525D0%2525B4%2525D0%2525BD%2525D1%25258F%22%2C%22rn%22%3A223428856%7D&search_query=%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%20%D0%B4%D0%BD%D1%8F"
-                }
-            },
-            {
-                "title": "Avalanche",
-                "role": "Инди-разработчик",
-                "description": "Игра в жанре аркады с прохождением рандомно генерируемых уровней. Уникальный геймплей и разнообразие действий.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "Addressables",
-                    "Blender",
-                    "Unity Jobs"
-                ],
-                "date": "2025",
-                "team": "Команда из 1 человека",
-                "image": "/images/avalanche.png",
-                "github": "",
-                "platforms": "Android, IOS, WebGL",
-                "responsibilities": [
-                    "Создание рандомно генерируемой трасы",
-                    "Создание 3D моделей",
-                    "Разработка UI/UX",
-                    "Оптимизация нагруженных операций"
-                ],
-                "features": [
-                    "Разнообразие действий игрока",
-                    "Непредсказуемое поведение мира",
-                    "Удобство в управлении"
-                ],
-                "storeLinks": {
-                    "itchIo": "https://smagoll.itch.io/avalanche"
-                }
-            },
-            {
-                "title": "Двигай телом!",
-                "role": "Геймплей и технический разработчик",
-                "description": "Перетаскивай кукол за конечности, преодолевай ловушки и смейся над их неуклюжими падениями! Хаотичная, но увлекательная рэгдолл-аркада.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "YandexSDK",
-                    "Unity Physics",
-                    "DOTween",
-                    "Custom Physics Logic"
-                ],
-                "date": "2024",
-                "team": "Команда из 3 человек",
-                "image": "/images/moveBody.jpg",
-                "github": "",
-                "platforms": "WebGL",
-                "responsibilities": [
-                    "Создание всех анимаций, эффектов и физически-зависимых шейдеров",
-                    "Разработка системы перетаскивания с учётом физики суставов",
-                    "Настройка кривых движения и обратной связи через анимации",
-                    "Оптимизация производительности и стабильности рэгдоллов",
-                    "Поддержка плавной работы на мобильных браузерах"
-                ],
-                "features": [
-                    "Рэгдолл-физика с частичной симуляцией суставов",
-                    "Разнообразие препятствий и окружения",
-                    "Весёлый и непредсказуемый геймплей"
-                ],
-                "storeLinks": {
-                    "yandexGames": "https://yandex.ru/games/developer/47326#app=271558"
-                }
-            },
-            {
-                "title": "Двигай лапой!",
-                "role": "Геймплей и технический разработчик",
-                "description": "Управляй милыми животными и динозаврами, перетаскивая их за конечности! Весёлая физическая головоломка с рэгдоллами и неожиданным поведением.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "YandexSDK",
-                    "DOTween",
-                    "Custom Physics Logic"
-                ],
-                "date": "2024",
-                "team": "Команда из 3 человек",
-                "image": "/images/moveAnimals.jpg",
-                "github": "",
-                "platforms": "WebGL",
-                "responsibilities": [
-                    "Создание всех анимаций, эффектов и кастомных шейдеров",
-                    "Реализация уникальной логики физики конечностей",
-                    "Настройка взаимодействий с коллизиями и триггерами",
-                    "Оптимизация под WebGL: уменьшение веса ассетов и ускорение загрузки",
-                    "Рефакторинг унаследованного кода и интеграция асинхронной логики"
-                ],
-                "features": [
-                    "Интуитивное управление",
-                    "Милые животные и динозавры",
-                    "Забавная рэгдолл-физика с реалистичной отдачей"
-                ],
-                "storeLinks": {
-                    "yandexGames": "https://yandex.ru/games/developer/58612#app=283376"
-                }
-            },
-            {
-                "title": "Orb2048",
-                "role": "Инди‑разработчик",
-                "description": "Гиперказуальная игра, где в стакане комбинируешь числа по логике 2048, чтобы шары не вываливаются.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "Addressables",
-                    "UniTask",
-                    "Reflex",
-                    "Пользовательская логика объединения"
-                ],
-                "date": "2025",
-                "team": "Команда из 1 человека",
-                "image": "/images/orb2048.png",
-                "github": "",
-                "platforms": "Android, IOS, WebGL",
-                "responsibilities": [
-                    "Реализовал систему объединения шаров по механике 2048",
-                    "Разработал плавное падение и укладку шаров",
-                    "Создал интуитивную систему drag‑and‑drop",
-                    "Оптимизировал физику в реальном времени",
-                    "Сверстал короткие, затягивающие игровые сессии"
-                ],
-                "features": [
-                    "Простое перетаскивание и объединение",
-                    "Затягивающий прогресс по типу 2048",
-                    "Увеличивающаяся сложность по мере заполнения стакана"
-                ],
-                "storeLinks": {
-                    "yandexGames": "https://yandex.ru/games/app/453891?lang=ru"
-                }
-            }
+        "date": "2024",
+        "team": "Solo Developer",
+        "image": "/images/aristocrasy.png",
+        "github": "https://github.com/smagoll/roguelike",
+        "platforms": "Android",
+        "responsibilities": [
+          "Developed and implemented the chunk system",
+          "Optimized rendering and code",
+          "Implemented the abilities system",
+          "First released game, experience with publishing"
         ],
-        "inDevelopment": [
-            {
-                "title": "Untitled Soulslike",
-                "role": "Инди-разработчик",
-                "description": "Soulslike-игра с упором на боевую систему, масштабируемую архитектуру и проработанных врагов. У каждого противника собственное поведение, построенное на BT и FSM. Достаточно добавить контроллер, и враг автоматически интегрируется в систему. В процессе разработки получил большой опыт работы с анимациями (IK, ивенты, анимационные кривые).",
-                "technologies": [
-                    "Unity",
-                    "NavMesh",
-                    "UniTask",
-                    "Zenject",
-                    "NodeCanvas",
-                    "DOTween"
-                ],
-                "date": "2025",
-                "team": "Соло-разработка",
-                "image": "/images/untitled.jpg",
-                "github": "https://github.com/smagoll/illusion_flash",
-                "platforms": "PC",
-                "responsibilities": [
-                    "Разработал масштабируемую архитектуру AI врагов на основе BT и FSM",
-                    "Создал систему контроллеров, позволяющую быстро добавлять новых противников",
-                    "Проработал систему анимаций с использованием IK, ивентов и анимационных кривых",
-                    "Реализовал навигацию врагов с использованием Unity NavMesh",
-                    "Интегрировал UniTask и Zenject для оптимизации кода и удобства поддержки"
-                ],
-                "features": [
-                    "Soulslike-боевая система с уклонениями и контратаками",
-                    "Противники со сложным поведением на основе BT и FSM",
-                    "Легко расширяемая архитектура для добавления новых врагов и механик",
-                    "Использование IK, ивентов и кривых в системе анимаций",
-                    "Система контроллеров: добавь врага — и он готов к бою"
-                ],
-                "storeLinks": {}
-            },
-            {
-                "title": "Losses",
-                "role": "Инди-разработчик",
-                "description": "Игра в жанре социальной дедукции. Действие игры происходит на острове, где необходимо найти убийц, чтобы выжить.",
-                "technologies": [
-                    "Unity",
-                    "Shader Graph",
-                    "Addressables",
-                    "Zenject",
-                    "Blender"
-                ],
-                "date": "2026-2030",
-                "team": "Команда из 1 человека",
-                "image": "/images/losses.jpg",
-                "github": "",
-                "platforms": "PC",
-                "responsibilities": [
-                    "Создание мультиплеера",
-                    "Разработка механики мини-игр",
-                    "Продумывание истории игры",
-                    "Создание дизайна всей игры от механик до внешнего вида"
-                ],
-                "features": [
-                    "Удивительная атмосфера",
-                    "Живой мир",
-                    "Игра с друзьми или другими игроками"
-                ],
-                "storeLinks": {}
-            }
-        ]
-    }
+        "features": [
+          "Variety of weapons, abilities, and heroes",
+          "Endless mode",
+          "Progressive enemy difficulty increase"
+        ],
+        "storeLinks": {
+          "appGallery": "https://appgallery.cloud.huawei.com/ag/n/app/C110498811?locale=en_US&source=appshare&subsource=C110498811&shareTo=com.android.chrome&shareFrom=appmarket&shareIds=bec52d58749d4c19abfe408751631d01_com.android.chrome&callType=SHARE",
+          "ruStore": "https://www.rustore.ru/catalog/app/aristocrasy.apk",
+          "itchIo": "https://smagoll.itch.io/aristocrasy"
+        }
+      },
+      {
+        "title": "HexaSort",
+        "role": "Gameplay and Technical Developer",
+        "description": "Puzzle game with over 100 levels, quest system, and leaderboard.",
+        "technologies": [
+          "Unity",
+          "Shader Graph",
+          "Addressables",
+          "YandexSDK"
+        ],
+        "date": "2024",
+        "team": "Team of 3",
+        "image": "/images/hexaSort.png",
+        "github": "",
+        "platforms": "WebGL",
+        "responsibilities": [
+          "Fully implemented all mechanics",
+          "Created all animations, effects, and shaders",
+          "Implemented the quest and island system",
+          "Optimized build size and game loading"
+        ],
+        "features": [
+          "Variety of tile types",
+          "Daily and weekly quests",
+          "More than 100 levels",
+          "Island upgrading system"
+        ],
+        "storeLinks": {
+          "yandexGames": "https://yandex.ru/games/app/371625#app-id=371625"
+        }
+      },
+      {
+        "title": "Quiz",
+        "role": "Gameplay and Technical Developer",
+        "description": "A question-and-answer style game.",
+        "technologies": [
+          "DOTween",
+          "Shader Graph",
+          "Hot Reload",
+          "Figma",
+          "Addressables",
+          "YandexSDK"
+        ],
+        "date": "2025",
+        "team": "Team of 4 people",
+        "image": "/images/quiz.png",
+        "github": "",
+        "platforms": "WebGL",
+        "responsibilities": [
+          "Fully implemented all mechanics",
+          "Created all animations, effects, and shaders",
+          "Implemented and designed the entire structure of game modes",
+          "Optimized build size and game launch",
+          "Developed a scalable system that makes it very easy to add new questions and modes",
+          "Designed and implemented two user interfaces for PC and Android"
+        ],
+        "features": [
+          "Over 100 questions",
+          "Daily and weekly challenges",
+          "Responsive interface",
+          "Variety of game modes"
+        ],
+        "storeLinks": {
+          "yandexGames": "https://yandex.ru/games/app/462858#app-id=462858&catalog-session-uid=catalog-9a541ed9-dfb4-53f1-a791-459d46265ca8-1756749832668-57ea&rtx-reqid=13107077350572084560&pos=%7B%22listType%22%3A%22suggested%22%2C%22tabCategory%22%3A%22search%22%7D&redir-data=%7B%22block%22%3A%22search%22%2C%22block_index%22%3A0%2C%22card%22%3A%22adaptive_recommended_new%22%2C%22col%22%3A0%2C%22first_screen%22%3A1%2C%22page%22%3A%22search%22%2C%22row%22%3A0%2C%22rtx_reqid%22%3A%229656770415947737947%22%2C%22same_block_index%22%3A0%2C%22wrapper%22%3A%22grid-list%22%2C%22request_id%22%3A%221756749905892743-14725115514267410509-mv2eeqenp4thmy4c-BAL%22%2C%22games_request_id%22%3A%221756749905857948-2896028396139115068-balancer-l7leveler-kubr-yp-sas-95-BAL%22%2C%22http_ref%22%3A%22https%253A%252F%252Fyandex.ru%252Fgames%252Fsearch%253Fquery%253D%2525D0%2525B2%2525D0%2525BE%2525D0%2525BF%2525D1%252580%2525D0%2525BE%2525D1%252581%252520%2525D0%2525B4%2525D0%2525BD%2525D1%25258F%22%2C%22rn%22%3A223428856%7D&search_query=%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%20%D0%B4%D0%BD%D1%8F"
+        }
+      },
+      {
+        "title": "Avalanche",
+        "role": "Indie Developer",
+        "description": "Arcade game with randomly generated levels. Unique gameplay and a variety of actions.",
+        "technologies": [
+          "Unity",
+          "Shader Graph",
+          "Addressables",
+          "Zenject",
+          "Blender",
+          "Unity Jobs"
+        ],
+        "date": "2025",
+        "team": "Solo Developer",
+        "image": "/images/avalanche.png",
+        "github": "",
+        "platforms": "Android, IOS, WebGL",
+        "responsibilities": [
+          "Creating randomly generated tracks",
+          "Creating 3D models",
+          "Developing UI/UX",
+          "Optimizing heavy operations"
+        ],
+        "features": [
+          "Variety of player actions",
+          "Unpredictable world behavior",
+          "Easy and intuitive controls"
+        ],
+        "storeLinks": {
+          "itchIo": "https://smagoll.itch.io/avalanche"
+        }
+      },
+      {
+        "title": "Orb2048",
+        "role": "Indie Developer",
+        "description": "Hyper‑casual game where you combine numbered orbs inside a glass; merge orbs by the rules of 2048 to prevent them from spilling out.",
+        "technologies": [
+          "Unity",
+          "Shader Graph",
+          "Addressables",
+          "UniTask",
+          "Reflex",
+          "Custom Merge Logic"
+        ],
+        "date": "2025",
+        "team": "Solo Developer",
+        "image": "/images/orb2048.png",
+        "github": "",
+        "platforms": "Android, IOS, WebGL",
+        "responsibilities": [
+          "Implemented merging system for orbs based on 2048 logic",
+          "Designed smooth drop and stacking mechanics",
+          "Developed intuitive drag‑and‑drop controls",
+          "Optimized real‑time physics performance",
+          "Crafted quick, addictive hyper‑casual loops"
+        ],
+        "features": [
+          "Simple drag‑and‑drop merging",
+          "Addictive 2048‑style progression",
+          "Rising challenge as orbs stack higher"
+        ],
+        "storeLinks": {
+          "yandexGames": "https://yandex.ru/games/app/453891?lang=ru"
+        }
+      },
+      {
+        "title": "Jokerino",
+        "role": "Gameplay & Technical Developer",
+        "description": "A poker-based roguelike where the player combines cards and jokers to create powerful hands and progress through increasingly challenging runs. The game blends luck, strategy, and deck-building to deliver unique builds and unpredictable rounds.",
+        "technologies": [
+          "Unity",
+          "Addressables",
+          "UniTask",
+          "Zenject",
+          "UniRx"
+        ],
+        "date": "2025",
+        "team": "Team of 5 people",
+        "image": "/images/jokerino.png",
+        "github": "",
+        "platforms": "WebGL",
+        "responsibilities": [
+          "Developed the in-game shop and economy system",
+          "Implemented joker logic with unique gameplay effects",
+          "Optimized loading and data management using Addressables",
+          "Integrated reactive event handling via UniRx",
+          "Created visual animations and effects with DOTween",
+          "Fixed bugs and optimized WebGL build performance"
+        ],
+        "features": [
+          "Unique blend of poker mechanics and roguelike progression",
+          "Jokers with diverse abilities that influence strategy",
+          "Persistent upgrades and progression between runs",
+          "Simple controls and intuitive visual feedback",
+          "Increasing difficulty and engaging risk-reward gameplay"
+        ],
+        "storeLinks": {
+          "yandexGames": "https://yandex.ru/games/app/453455"
+        }
+      },
+      {
+        "title": "Gossip",
+        "role": "Gameplay & Technical Developer",
+        "description": "A casual Match-3 game combined with a visual novel, where players complete puzzle levels to uncover storylines and build relationships between characters. The game offers a mix of humor, intrigue, and light drama.",
+        "technologies": [
+          "Unity",
+          "Addressables",
+          "UniTask",
+          "Zenject",
+          "UniRx"
+        ],
+        "date": "2025",
+        "team": "Team of 3 people",
+        "image": "/images/gossip.png",
+        "github": "",
+        "platforms": "WebGL",
+        "responsibilities": [
+          "Developed the battle pass and reward progression system",
+          "Implemented Match-3 gameplay logic and visual effects",
+          "Integrated and edited dialogue and story scenes",
+          "Fixed bugs and optimized performance for WebGL",
+          "Supported event-driven UI using UniRx"
+        ],
+        "features": [
+          "Engaging mix of Match-3 gameplay and visual novel storytelling",
+          "Battle pass system with cosmetic and story-based rewards",
+          "Branching dialogue system with interactive characters",
+          "Colorful animations and smooth UX optimized for WebGL",
+          "Gradually increasing difficulty and unique power-ups"
+        ],
+        "storeLinks": {
+          "yandexGames": "https://yandex.ru/games/app/428170"
+        }
+      }
+    ],
+    "inDevelopment": [
+      {
+        "title": "Untitled Soulslike",
+        "role": "Indie Developer",
+        "description": "A soulslike game focused on combat mechanics, scalable architecture, and advanced enemy AI. Each enemy has unique behavior based on BT and FSM. By simply adding a controller, an enemy can be seamlessly integrated into the system. During development, I gained extensive experience working with animations (IK, animation events, curves).",
+        "technologies": [
+          "Unity",
+          "NavMesh",
+          "UniTask",
+          "Zenject",
+          "NodeCanvas",
+          "DOTween"
+        ],
+        "date": "2025",
+        "team": "Solo development",
+        "image": "/images/untitled.jpg",
+        "github": "https://github.com/smagoll/illusion_flash",
+        "platforms": "PC",
+        "responsibilities": [
+          "Developed a scalable enemy AI architecture based on BT and FSM",
+          "Created a controller system that allows quick integration of new enemies",
+          "Worked extensively with the animation system using IK, animation events, and curves",
+          "Implemented enemy navigation using Unity NavMesh",
+          "Integrated UniTask and Zenject for code optimization and maintainability"
+        ],
+        "features": [
+          "Soulslike combat system with dodges and counterattacks",
+          "Enemies with complex behavior powered by BT and FSM",
+          "Easily extensible architecture for adding new enemies and mechanics",
+          "Use of IK, events, and curves in the animation system",
+          "Controller-based system: add an enemy and it’s ready to fight"
+        ],
+        "storeLinks": {}
+      },
+      {
+        "title": "Losses",
+        "role": "Indie Developer",
+        "description": "Social deduction game set on an island where players must find the killers to survive.",
+        "technologies": [
+          "Unity",
+          "Shader Graph",
+          "Addressables",
+          "Zenject",
+          "Blender"
+        ],
+        "date": "2026-2030",
+        "team": "Solo Developer",
+        "image": "/images/losses.jpg",
+        "github": "",
+        "platforms": "PC",
+        "responsibilities": [
+          "Creating multiplayer functionality",
+          "Developing mini-game mechanics",
+          "Designing the game’s storyline",
+          "Designing the entire game from mechanics to visuals"
+        ],
+        "features": [
+          "Immersive atmosphere",
+          "Living world",
+          "Play with friends or other players"
+        ],
+        "storeLinks": {
+          "itchIo": "https://smagoll.itch.io/avalanche"
+        }
+      }
+    ]
+  },
+  "ru": {
+    "published": [
+      {
+        "title": "Aristocrasy",
+        "role": "Инди-разработчик",
+        "description": "Игра в жанре рогалик с бесконечно генерируемой картой и уровнями, а также множество улучшений.",
+        "technologies": [
+          "Unity",
+          "Shader Graph",
+          "Visual Shader Graph",
+          "2D Art"
+        ],
+        "date": "2024",
+        "team": "Команда из 1 человека",
+        "image": "/images/aristocrasy.png",
+        "github": "https://github.com/smagoll/roguelike",
+        "platforms": "Android",
+        "responsibilities": [
+          "Разработал и реализовал систему чанков",
+          "Оптимизировал рендеринг и код",
+          "Реализовал систему способностей",
+          "Первая выпущенная игра, опыт с публикацией"
+        ],
+        "features": [
+          "Разнообразие оружий, способностей и героев",
+          "Бесконечный режим",
+          "Прогрессивное усиление врагов"
+        ],
+        "storeLinks": {
+          "appGallery": "https://appgallery.cloud.huawei.com/ag/n/app/C110498811?locale=en_US&source=appshare&subsource=C110498811&shareTo=com.android.chrome&shareFrom=appmarket&shareIds=bec52d58749d4c19abfe408751631d01_com.android.chrome&callType=SHARE",
+          "ruStore": "https://www.rustore.ru/catalog/app/aristocrasy.apk",
+          "itchIo": "https://smagoll.itch.io/aristocrasy"
+        }
+      },
+      {
+        "title": "HexaSort",
+        "role": "Геймплей и технический разработчик",
+        "description": "Игра в жанре головоломки с более чем 100 уровнями, системой квестов, таблицей лидеров.",
+        "technologies": [
+          "Unity",
+          "Shader Graph",
+          "Addressables",
+          "YandexSDK"
+        ],
+        "date": "2024",
+        "team": "Команда из 3 человек",
+        "image": "/images/hexaSort.png",
+        "github": "",
+        "platforms": "WebGL",
+        "responsibilities": [
+          "Полностью реализовал все механики",
+          "Создал все анимации, эффекты и шейдеры",
+          "Реализовал систему квестов и островов",
+          "Оптимизировал размер билда и запуск игры"
+        ],
+        "features": [
+          "Разнообразие видов плиток",
+          "Ежедневные и еженедельные квесты",
+          "Больше 100 уровней",
+          "Прокачка островов"
+        ],
+        "storeLinks": {
+          "yandexGames": "https://yandex.ru/games/app/371625#app-id=371625&catalog-session-uid=catalog-9a541ed9-dfb4-53f1-a791-459d46265ca8-1739857761552-1321&rtx-reqid=11440383696854432006&pos=%7B%22listType%22%3A%22played%22%2C%22tabCategory%22%3A%22common%22%7D&redir-data=%7B%22block%22%3A%22played%22%2C%22block_index%22%3A0%2C%22card%22%3A%22your_games%22%2C%22col%22%3A3%2C%22first_screen%22%3A1%2C%22page%22%3A%22main%22%2C%22rn%22%3A118453333%2C%22row%22%3A0%2C%22rtx_reqid%22%3A%2211440383696854432006%22%2C%22same_block_index%22%3A0%2C%22wrapper%22%3A%22played_games%22%2C%22http_ref%22%3A%22https%253A%252F%252Fyandex.ru%252Fgames%252F%22%7D"
+        }
+      },
+      {
+        "title": "Quiz",
+        "role": "Геймплей и технический разработчик",
+        "description": "Игра в жанре вопрос-ответ.",
+        "technologies": [
+          "DOTween",
+          "Shader Graph",
+          "Hot Reload",
+          "Figma",
+          "Addressables",
+          "YandexSDK"
+        ],
+        "date": "2025",
+        "team": "Команда из 4 человек",
+        "image": "/images/quiz.png",
+        "github": "",
+        "platforms": "WebGL",
+        "responsibilities": [
+          "Полностью реализовал все механики",
+          "Создал все анимации, эффекты и шейдеры",
+          "Реализовал и создал всю структуру режимов",
+          "Оптимизировал размер билда и запуск игры",
+          "Сделал масштабируемую систему, в которую очень легко добавить новые вопросы и режимы",
+          "Верстка и реализация двух интерфейсов для ПК и Андроид"
+        ],
+        "features": [
+          "Больше 100 вопросов",
+          "Ежедневные и еженедельные задания",
+          "Отзывчивый интерфейс",
+          "Разнообразие режимов"
+        ],
+        "storeLinks": {
+          "yandexGames": "https://yandex.ru/games/app/462858#app-id=462858&catalog-session-uid=catalog-9a541ed9-dfb4-53f1-a791-459d46265ca8-1756749832668-57ea&rtx-reqid=13107077350572084560&pos=%7B%22listType%22%3A%22suggested%22%2C%22tabCategory%22%3A%22search%22%7D&redir-data=%7B%22block%22%3A%22search%22%2C%22block_index%22%3A0%2C%22card%22%3A%22adaptive_recommended_new%22%2C%22col%22%3A0%2C%22first_screen%22%3A1%2C%22page%22%3A%22search%22%2C%22row%22%3A0%2C%22rtx_reqid%22%3A%229656770415947737947%22%2C%22same_block_index%22%3A0%2C%22wrapper%22%3A%22grid-list%22%2C%22request_id%22%3A%221756749905892743-14725115514267410509-mv2eeqenp4thmy4c-BAL%22%2C%22games_request_id%22%3A%221756749905857948-2896028396139115068-balancer-l7leveler-kubr-yp-sas-95-BAL%22%2C%22http_ref%22%3A%22https%253A%252F%252Fyandex.ru%252Fgames%252Fsearch%253Fquery%253D%2525D0%2525B2%2525D0%2525BE%2525D0%2525BF%2525D1%252580%2525D0%2525BE%2525D1%252581%252520%2525D0%2525B4%2525D0%2525BD%2525D1%25258F%22%2C%22rn%22%3A223428856%7D&search_query=%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%20%D0%B4%D0%BD%D1%8F"
+        }
+      },
+      {
+        "title": "Avalanche",
+        "role": "Инди-разработчик",
+        "description": "Игра в жанре аркады с прохождением рандомно генерируемых уровней. Уникальный геймплей и разнообразие действий.",
+        "technologies": [
+          "Unity",
+          "Shader Graph",
+          "Addressables",
+          "Blender",
+          "Unity Jobs"
+        ],
+        "date": "2025",
+        "team": "Команда из 1 человека",
+        "image": "/images/avalanche.png",
+        "github": "",
+        "platforms": "Android, IOS, WebGL",
+        "responsibilities": [
+          "Создание рандомно генерируемой трасы",
+          "Создание 3D моделей",
+          "Разработка UI/UX",
+          "Оптимизация нагруженных операций"
+        ],
+        "features": [
+          "Разнообразие действий игрока",
+          "Непредсказуемое поведение мира",
+          "Удобство в управлении"
+        ],
+        "storeLinks": {
+          "itchIo": "https://smagoll.itch.io/avalanche"
+        }
+      },
+      {
+        "title": "Orb2048",
+        "role": "Инди‑разработчик",
+        "description": "Гиперказуальная игра, где в стакане комбинируешь числа по логике 2048, чтобы шары не вываливаются.",
+        "technologies": [
+          "Unity",
+          "Shader Graph",
+          "Addressables",
+          "UniTask",
+          "Reflex",
+          "Пользовательская логика объединения"
+        ],
+        "date": "2025",
+        "team": "Команда из 1 человека",
+        "image": "/images/orb2048.png",
+        "github": "",
+        "platforms": "Android, IOS, WebGL",
+        "responsibilities": [
+          "Реализовал систему объединения шаров по механике 2048",
+          "Разработал плавное падение и укладку шаров",
+          "Создал интуитивную систему drag‑and‑drop",
+          "Оптимизировал физику в реальном времени",
+          "Сверстал короткие, затягивающие игровые сессии"
+        ],
+        "features": [
+          "Простое перетаскивание и объединение",
+          "Затягивающий прогресс по типу 2048",
+          "Увеличивающаяся сложность по мере заполнения стакана"
+        ],
+        "storeLinks": {
+          "yandexGames": "https://yandex.ru/games/app/453891?lang=ru"
+        }
+      },
+      {
+        "title": "Jokerino",
+        "role": "Геймплей и технический разработчик",
+        "description": "Рогалик с механиками покера, где игрок комбинирует карты и джокеров, чтобы собирать сильные комбинации и продвигаться всё дальше. Игра сочетает азарт, стратегию и элементы случайности, создавая уникальные билды и неожиданные партии.",
+        "technologies": [
+          "Unity",
+          "Addressables",
+          "UniTask",
+          "Zenject",
+          "UniRx"
+        ],
+        "date": "2025",
+        "team": "Команда из 5 человек",
+        "image": "/images/jokerino.png",
+        "github": "",
+        "platforms": "WebGL",
+        "responsibilities": [
+          "Разработка системы магазина и экономики",
+          "Создание и настройка логики джокеров с уникальными эффектами",
+          "Оптимизация загрузки и хранения данных через Addressables",
+          "Интеграция реактивных событий с UniRx",
+          "Реализация визуальных анимаций и эффектов с помощью DOTween",
+          "Исправление багов и оптимизация производительности WebGL-сборки"
+        ],
+        "features": [
+          "Сочетание механик покера и рогалика",
+          "Джокеры с уникальными способностями, влияющими на стратегию игры",
+          "Система прогрессии и улучшений между забегами",
+          "Простое управление и понятная визуальная подача",
+          "Рост сложности и азарт с каждой новой комбинацией"
+        ],
+        "storeLinks": {
+          "yandexGames": "https://yandex.ru/games/app/453455"
+        }
+      },
+      {
+        "title": "Gossip",
+        "role": "Геймплей и технический разработчик",
+        "description": "Казуальная Match-3 игра с визуальной новеллой, где игрок проходит уровни, узнавая новые детали сюжета и развивая отношения между персонажами. Атмосфера интриг, юмора и лёгкой драмы.",
+        "technologies": [
+          "Unity",
+          "Addressables",
+          "UniTask",
+          "Zenject",
+          "UniRx"
+        ],
+        "date": "2025",
+        "team": "Команда из 3 человек",
+        "image": "/images/gossip.png",
+        "github": "",
+        "platforms": "WebGL",
+        "responsibilities": [
+          "Разработка системы баттлпасса и наград",
+          "Настройка логики матч-3 уровней и визуальных эффектов",
+          "Корректировка и интеграция диалогов и сюжетных сцен",
+          "Исправление багов и оптимизация под WebGL",
+          "Поддержка событий и реактивных интерфейсов через UniRx"
+        ],
+        "features": [
+          "Увлекательное сочетание Match-3 и визуальной новеллы",
+          "Продуманный баттлпасс с косметическими и сюжетными наградами",
+          "Система диалогов с ветвлением и персонажами",
+          "Красочная анимация и плавный UX под WebGL",
+          "Постепенное усложнение уровней и уникальные бонусы"
+        ],
+        "storeLinks": {
+          "yandexGames": "https://yandex.ru/games/app/428170"
+        }
+      }
+    ],
+    "inDevelopment": [
+      {
+        "title": "Untitled Soulslike",
+        "role": "Инди-разработчик",
+        "description": "Soulslike-игра с упором на боевую систему, масштабируемую архитектуру и проработанных врагов. У каждого противника собственное поведение, построенное на BT и FSM. Достаточно добавить контроллер, и враг автоматически интегрируется в систему. В процессе разработки получил большой опыт работы с анимациями (IK, ивенты, анимационные кривые).",
+        "technologies": [
+          "Unity",
+          "NavMesh",
+          "UniTask",
+          "Zenject",
+          "NodeCanvas",
+          "DOTween"
+        ],
+        "date": "2025",
+        "team": "Соло-разработка",
+        "image": "/images/untitled.jpg",
+        "github": "https://github.com/smagoll/illusion_flash",
+        "platforms": "PC",
+        "responsibilities": [
+          "Разработал масштабируемую архитектуру AI врагов на основе BT и FSM",
+          "Создал систему контроллеров, позволяющую быстро добавлять новых противников",
+          "Проработал систему анимаций с использованием IK, ивентов и анимационных кривых",
+          "Реализовал навигацию врагов с использованием Unity NavMesh",
+          "Интегрировал UniTask и Zenject для оптимизации кода и удобства поддержки"
+        ],
+        "features": [
+          "Soulslike-боевая система с уклонениями и контратаками",
+          "Противники со сложным поведением на основе BT и FSM",
+          "Легко расширяемая архитектура для добавления новых врагов и механик",
+          "Использование IK, ивентов и кривых в системе анимаций",
+          "Система контроллеров: добавь врага — и он готов к бою"
+        ],
+        "storeLinks": {}
+      },
+      {
+        "title": "Losses",
+        "role": "Инди-разработчик",
+        "description": "Игра в жанре социальной дедукции. Действие игры происходит на острове, где необходимо найти убийц, чтобы выжить.",
+        "technologies": [
+          "Unity",
+          "Shader Graph",
+          "Addressables",
+          "Zenject",
+          "Blender"
+        ],
+        "date": "2026-2030",
+        "team": "Команда из 1 человека",
+        "image": "/images/losses.jpg",
+        "github": "",
+        "platforms": "PC",
+        "responsibilities": [
+          "Создание мультиплеера",
+          "Разработка механики мини-игр",
+          "Продумывание истории игры",
+          "Создание дизайна всей игры от механик до внешнего вида"
+        ],
+        "features": [
+          "Удивительная атмосфера",
+          "Живой мир",
+          "Игра с друзьми или другими игроками"
+        ],
+        "storeLinks": {}
+      }
+    ]
+  }
 }
