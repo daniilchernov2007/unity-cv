@@ -30,6 +30,28 @@ const LanguageContext = createContext({
   setLanguage: (lang: string) => {},
 })
 
+const BIRTH_DATE = new Date(2001, 6, 9)
+
+function getAge() {
+  const now = new Date()
+  let age = now.getFullYear() - BIRTH_DATE.getFullYear()
+  if (
+    now.getMonth() < BIRTH_DATE.getMonth() ||
+    (now.getMonth() === BIRTH_DATE.getMonth() && now.getDate() < BIRTH_DATE.getDate())
+  ) {
+    age--
+  }
+  return age
+}
+
+function formatAge(age: number, language: string) {
+  if (language !== "ru") return `${age} y.o.`
+  const d = age % 10
+  const h = age % 100
+  const suffix = h >= 11 && h <= 14 ? "лет" : d === 1 ? "год" : d >= 2 && d <= 4 ? "года" : "лет"
+  return `${age} ${suffix}`
+}
+
 // Language switcher component
 function LanguageSwitcher() {
   const { language, setLanguage } = useContext(LanguageContext)
@@ -167,7 +189,7 @@ export default function Resume() {
               <div className="flex items-center gap-2 mt-2">
                 <Badge variant="outline" className="flex items-center gap-1">
                   <Calendar className="h-3 w-3" />
-                  <span>{t.years}</span>
+                  <span>{formatAge(getAge(), language)}</span>
                 </Badge>
                 <Badge variant="outline" className="flex items-center gap-1">
                   <Globe className="h-3 w-3" />

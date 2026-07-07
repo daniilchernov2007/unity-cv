@@ -1,27 +1,53 @@
-﻿{
+{
   "en": [
+    {
+      "company": "PatternMasters",
+      "position": "Unity Developer",
+      "duration": "January 2026 – Present",
+      "responsibilities": [
+        "Developing mobile games for iOS and Android — from prototype to store release",
+        "Building playable ads based on existing projects for ad network requirements",
+        "Setting up a full CI/CD pipeline (TeamCity): automated builds, testing, and delivery for both platforms",
+        "Integrating SDKs: ad mediation (AppLovin MAX, Unity LevelPlay, AdMob), analytics (Firebase, AppsFlyer, GameAnalytics), Unity IAP",
+        "Optimizing performance: memory, FPS, and build size"
+      ]
+    },
     {
       "company": "CarrotHood",
       "position": "Unity Developer",
       "duration": "August 2023 – September 2025",
       "responsibilities": [
-        "Developed 2D/3D mobile games in Unity",
-        "Integrated in-app purchases and ads",
-        "Collaborated with designers and testers",
-        "More than 10 updates of already released games"
+        "Developed and maintained Unity games as part of a team",
+        "Optimized resources with Addressables and UniTask, ported games from Android to WebGL",
+        "Refactored and evolved legacy code, shipped 10+ updates for released games",
+        "Polished games with DOTween animations and custom shaders",
+        "Integrated WebGL platform SDKs, in-app purchases, and ads; worked with GameAnalytics and Yandex Metrica"
       ]
     }
   ],
   "ru": [
     {
+      "company": "PatternMasters",
+      "position": "Unity-разработчик",
+      "duration": "Январь 2026 – настоящее время",
+      "responsibilities": [
+        "Разработка мобильных игр под iOS и Android — от прототипа до релиза в сторах",
+        "Создание playable-рекламы на базе существующих проектов под требования рекламных площадок",
+        "Настройка полного CI/CD-пайплайна (TeamCity): автосборка, тестирование и доставка билдов под обе платформы",
+        "Интеграция SDK: медиация рекламы (AppLovin MAX, Unity LevelPlay, AdMob), аналитика (Firebase, AppsFlyer, GameAnalytics), Unity IAP",
+        "Оптимизация производительности: память, FPS, размер билда"
+      ]
+    },
+    {
       "company": "CarrotHood",
       "position": "Unity-разработчик",
       "duration": "Август 2023 – Сентябрь 2025",
       "responsibilities": [
-        "Разработка 2D/3D мобильных игр на Unity",
-        "Интеграция внутриигровых покупок и рекламы",
-        "Сотрудничество с дизайнерами и тестировщиками",
-        "Более 10 обновлений уже вышедших игр"
+        "Разработка и поддержка игр на Unity в команде",
+        "Оптимизация ресурсов через Addressables и UniTask, портирование игр с Android на WebGL",
+        "Рефакторинг и развитие legacy-кода, более 10 обновлений вышедших игр",
+        "Полировка игр: анимации на DOTween, кастомные шейдеры",
+        "Интеграция SDK WebGL-платформ, покупок и рекламы; аналитика GameAnalytics и Яндекс Метрика"
       ]
     }
   ]

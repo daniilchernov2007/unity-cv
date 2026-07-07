@@ -1,10 +1,9 @@
 {
     "en": {
         "name": "Daniil Chernov",
-        "years": "23 y.o.",
         "location": "Ekaterinburg, Russia",
-        "title": "Middle Game Developer",
-        "about": "Passionate game developer with over 3 years of experience creating exciting game projects on various platforms. Specializing in development using Unity3D, have a strong base in gameplay programming and architecture.",
+        "title": "Middle Unity Developer",
+        "about": "Unity developer with about 3 years of commercial experience shipping mobile and WebGL games — from prototype to store release. Strong background in gameplay programming, architecture, and performance optimization.",
         "publishedProjects": "Published Projects",
         "inDevelopment": "In Development",
         "skills": "Skills & Expertise",
@@ -34,10 +33,9 @@
     },
     "ru": {
         "name": "Даниил Чернов",
-        "years": "23 года",
         "location": "Екатеринбург, Россия",
-        "title": "Средний Разработчик Игр",
-        "about": "Увлеченный разработчик игр с более чем 3-летним опытом создания захватывающих игровых проектов на различных платформах. Специализируюсь на разработке с использованием Unity3D, имею сильную базу в программировании геймплея и построения архитектуры.",
+        "title": "Middle Unity-разработчик",
+        "about": "Unity-разработчик с коммерческим опытом около 3 лет: мобильные и WebGL-игры от прототипа до релиза в сторах. Сильная база в геймплейном программировании, архитектуре и оптимизации производительности.",
         "publishedProjects": "Выпущенные Проекты",
         "inDevelopment": "В Разработке",
         "skills": "Навыки и Экспертиза",
