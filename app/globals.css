@@ -2,46 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-  .no-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
-}
-
 @layer base {
   :root {
-    --background: 36 40% 97%;
-    --foreground: 24 10% 12%;
-    --card: 0 0% 100%;
-    --card-foreground: 24 10% 10%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 24 10% 10%;
-    --primary: 24 10% 10%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 30 8% 95%;
-    --secondary-foreground: 24 10% 10%;
-    --muted: 30 8% 95%;
-    --muted-foreground: 25 5% 45%;
-    --accent: 30 8% 93%;
-    --accent-foreground: 24 10% 10%;
+    --background: 40 10% 94%;
+    --foreground: 0 0% 7%;
+    --card: 40 14% 97%;
+    --card-foreground: 0 0% 7%;
+    --popover: 40 14% 97%;
+    --popover-foreground: 0 0% 7%;
+    --primary: 0 0% 7%;
+    --primary-foreground: 40 14% 97%;
+    --secondary: 40 8% 89%;
+    --secondary-foreground: 0 0% 7%;
+    --muted: 40 8% 89%;
+    --muted-foreground: 30 3% 34%;
+    --accent: 40 8% 89%;
+    --accent-foreground: 0 0% 7%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 20 6% 90%;
-    --input: 20 6% 90%;
-    --ring: 24 10% 10%;
-    --chart-1: 24 10% 10%;
-    --chart-2: 25 5% 45%;
-    --chart-3: 20 6% 70%;
-    --chart-4: 30 8% 85%;
-    --chart-5: 40 20% 95%;
-    --radius: 0.75rem;
+    --border: 35 6% 80%;
+    --input: 35 6% 80%;
+    --ring: 0 0% 7%;
+    --chart-1: 0 0% 7%;
+    --chart-2: 30 3% 34%;
+    --chart-3: 35 6% 60%;
+    --chart-4: 35 6% 80%;
+    --chart-5: 40 10% 94%;
+    --radius: 0.5rem;
+    --paper-grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.11 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
   }
 }
 
@@ -51,14 +39,51 @@
   }
   html {
     scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
+    scroll-padding-top: 4rem;
   }
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-sans), system-ui, sans-serif;
+    background-image: var(--paper-grain);
   }
   ::selection {
-    background: hsl(24 10% 10%);
-    color: hsl(0 0% 100%);
+    background: hsl(0 0% 7%);
+    color: hsl(40 14% 97%);
+  }
+}
+
+@layer utilities {
+  .font-script {
+    font-family: var(--font-script), "Segoe Script", cursive;
+    font-weight: 400;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .paper {
+    background-color: hsl(var(--card));
+    background-image: var(--paper-grain);
+  }
+  .pencil {
+    filter: grayscale(1) contrast(1.35) brightness(1.1) sepia(0.1);
+    mix-blend-mode: multiply;
+    -webkit-mask-image: radial-gradient(ellipse 60% 68% at 50% 42%, #000 55%, transparent 100%);
+    mask-image: radial-gradient(ellipse 60% 68% at 50% 42%, #000 55%, transparent 100%);
+  }
+  .hatching {
+    background-image: repeating-linear-gradient(-45deg, hsl(0 0% 7% / 0.22) 0 1px, transparent 1px 7px),
+      repeating-linear-gradient(45deg, hsl(0 0% 7% / 0.1) 0 1px, transparent 1px 11px);
+    -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 55%, transparent 72%);
+    mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 55%, transparent 72%);
+  }
+  .link-underline {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
   }
 }
 
@@ -66,12 +91,12 @@
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: hsl(40 20% 98%);
+  background: hsl(40 10% 94%);
 }
 ::-webkit-scrollbar-thumb {
-  background: hsl(20 6% 82%);
+  background: hsl(35 6% 72%);
   border-radius: 8px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(20 6% 70%);
+  background: hsl(35 6% 58%);
 }

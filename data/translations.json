@@ -49,7 +49,15 @@
         "filterAll": "All",
         "filterPublished": "Released",
         "filterInDev": "In development",
-        "eduLine": "B.Sc. Applied Informatics · English B1"
+        "eduLine": "B.Sc. Applied Informatics · English B1",
+        "hello": "Hello!",
+        "iAm": "I am Daniil Chernov.",
+        "aboutMe": "About me",
+        "swipe": "swipe",
+        "writeTelegram": "Message on Telegram",
+        "letsWork": "Let's make a game together.",
+        "writeMe": "write me",
+        "photoSoon": "photo coming soon"
     },
     "ru": {
         "name": "Даниил Чернов",
@@ -101,6 +109,14 @@
         "filterAll": "Все",
         "filterPublished": "Выпущенные",
         "filterInDev": "В разработке",
-        "eduLine": "Бакалавр, Прикладная информатика · Английский B1"
+        "eduLine": "Бакалавр, Прикладная информатика · Английский B1",
+        "hello": "Привет!",
+        "iAm": "Я — Даниил Чернов.",
+        "aboutMe": "обо мне",
+        "swipe": "листай",
+        "writeTelegram": "Написать в Telegram",
+        "letsWork": "Давайте сделаем игру вместе.",
+        "writeMe": "пиши",
+        "photoSoon": "тут будет фото"
     }
 }
