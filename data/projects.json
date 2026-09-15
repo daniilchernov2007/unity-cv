@@ -360,6 +360,45 @@
           "googlePlay": "https://play.google.com/store/apps/details?id=com.solitaire.associations",
           "appStore": "https://apps.apple.com/ru/app/id6756135176"
         }
+      },
+      {
+        "title": "Tap It Out",
+        "role": "Gameplay & Technical Developer",
+        "description": "A relaxing tap puzzle game for iOS and Android: hundreds of calm, stress-free levels with no timers, daily challenges, boosters, and a picture gallery. Published by PlayStorm.",
+        "technologies": [
+          "Unity",
+          "TeamCity CI/CD",
+          "Addressables",
+          "Varioqub",
+          "AppLovin MAX",
+          "Firebase",
+          "AppMetrica",
+          "UniTask"
+        ],
+        "date": "2026",
+        "team": "In-house team",
+        "image": "/images/tapItOut.png",
+        "github": "",
+        "platforms": "Android, IOS",
+        "responsibilities": [
+          "Set up the TeamCity CI/CD pipeline for Android and iOS: Windows and macOS agents, CocoaPods, signing, store upload, and cheat builds for QA",
+          "Built remote content delivery: Addressables bundles and configs uploaded to CDN, optimized bundle loading and unloading, handled failed downloads",
+          "Configured A/B tests via Varioqub and fixed the defs patcher so balance overrides (booster prices, rewards) apply correctly",
+          "Integrated Firebase Analytics across 28 game events and added new AppMetrica events",
+          "Kept ad mediation up to date (AppLovin MAX adapters) and resolved min SDK / iOS target conflicts",
+          "Fixed tutorial, daily challenges, and victory screen issues; reworked booster purchase logic with rewarded ads",
+          "Decomposed and estimated the new comic mode feature",
+          "Brought the game to release on Google Play and the App Store"
+        ],
+        "features": [
+          "Hundreds of relaxing tap puzzles with no timers",
+          "Daily challenges with a monthly trophy calendar",
+          "Boosters, combo rewards, and a collectible picture gallery"
+        ],
+        "storeLinks": {
+          "googlePlay": "https://play.google.com/store/apps/details?id=com.pu8.tapit.out",
+          "appStore": "https://apps.apple.com/au/app/tap-it-out-color-puzzle/id6770504411"
+        }
       }
     ],
     "inDevelopment": [
@@ -786,6 +825,45 @@
         "storeLinks": {
           "googlePlay": "https://play.google.com/store/apps/details?id=com.solitaire.associations",
           "appStore": "https://apps.apple.com/ru/app/id6756135176"
+        }
+      },
+      {
+        "title": "Tap It Out",
+        "role": "Геймплей и технический разработчик",
+        "description": "Расслабляющая тап-головоломка для iOS и Android: сотни спокойных уровней без таймеров, ежедневные испытания, бустеры и галерея картин. Издатель — PlayStorm.",
+        "technologies": [
+          "Unity",
+          "TeamCity CI/CD",
+          "Addressables",
+          "Varioqub",
+          "AppLovin MAX",
+          "Firebase",
+          "AppMetrica",
+          "UniTask"
+        ],
+        "date": "2026",
+        "team": "Команда студии",
+        "image": "/images/tapItOut.png",
+        "github": "",
+        "platforms": "Android, IOS",
+        "responsibilities": [
+          "Настроил CI/CD на TeamCity под Android и iOS: Windows- и macOS-агенты, CocoaPods, подпись, загрузка в сторы, чит-сборки для тестировщиков",
+          "Реализовал доставку контента: Addressables-бандлы и конфиги на CDN, оптимизация загрузки и выгрузки бандлов, обработка недокачанных ассетов",
+          "Настраивал A/B-тесты через Varioqub и починил патчер дефов, чтобы балансные оверрайды (цены бустеров, награды) применялись корректно",
+          "Интегрировал Firebase Analytics на 28 игровых событий, добавлял новые события AppMetrica",
+          "Обновлял медиацию рекламы (адаптеры AppLovin MAX) и решал конфликты min SDK / iOS target",
+          "Чинил туториал, ежедневные испытания и экран победы; переработал покупку бустеров с rewarded-рекламой",
+          "Декомпозировал и оценил новую фичу — комиксный режим",
+          "Довёл игру до релиза в Google Play и App Store"
+        ],
+        "features": [
+          "Сотни расслабляющих тап-головоломок без таймеров",
+          "Ежедневные испытания с календарём и трофеем месяца",
+          "Бустеры, комбо-награды и коллекционная галерея картин"
+        ],
+        "storeLinks": {
+          "googlePlay": "https://play.google.com/store/apps/details?id=com.pu8.tapit.out",
+          "appStore": "https://apps.apple.com/au/app/tap-it-out-color-puzzle/id6770504411"
         }
       }
     ],

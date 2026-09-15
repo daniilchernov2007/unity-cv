@@ -255,12 +255,12 @@ export default function Resume() {
         {/* Bento grid */}
         <main className="flex-1 min-h-0 p-3 lg:p-4 grid grid-cols-1 lg:grid-cols-12 lg:grid-rows-[11fr_7fr] gap-3 lg:gap-4">
           {/* Profile */}
-          <Card className="lg:col-span-4 rounded-2xl p-5 flex flex-col min-h-0 overflow-hidden border-black/5 bg-gradient-to-br from-white via-white to-indigo-50/70">
+          <Card className="lg:col-span-4 rounded-2xl px-5 py-4 flex flex-col min-h-0 overflow-hidden border-black/5 bg-gradient-to-br from-white via-white to-indigo-50/70">
             <h1 className="text-2xl xl:text-3xl font-bold tracking-tight">{t.name}</h1>
             <p className="text-sm font-medium text-indigo-600 mt-1">{t.title}</p>
-            <p className="text-[13px] text-muted-foreground mt-3 leading-relaxed">{t.about}</p>
+            <p className="text-[13px] text-muted-foreground mt-2 leading-relaxed">{t.about}</p>
 
-            <div className="flex flex-wrap gap-1.5 mt-4">
+            <div className="flex flex-wrap gap-1.5 mt-3">
               {keyStack.map((skill, i) => (
                 <span
                   key={skill}
@@ -271,12 +271,12 @@ export default function Resume() {
               ))}
             </div>
 
-            <div className="flex items-center gap-1.5 mt-4 text-[11px] text-muted-foreground">
+            <div className="flex items-center gap-1.5 mt-3 text-[11px] text-muted-foreground">
               <GraduationCap className="h-3.5 w-3.5 shrink-0" />
               <span>{t.eduLine}</span>
             </div>
 
-            <div className="flex flex-wrap gap-2 mt-auto pt-4">
+            <div className="flex flex-wrap gap-2 mt-auto pt-3">
               <a href="https://t.me/potero" target="_blank" rel="noopener noreferrer">
                 <Button size="sm" className="gap-1.5 rounded-full px-4 h-8 text-xs">
                   <FaTelegramPlane className="h-3.5 w-3.5" />
@@ -297,7 +297,7 @@ export default function Resume() {
               </a>
             </div>
 
-            <div className="flex items-stretch gap-5 mt-4 pt-4 border-t border-black/5">
+            <div className="flex items-stretch gap-5 mt-3 pt-3 border-t border-black/5">
               <Stat value={String(projects.published.length)} label={t.statGames} color="text-indigo-600" />
               <div className="w-px bg-black/5" />
               <Stat value={String(getCareerYears())} label={t.statYears} color="text-emerald-600" />

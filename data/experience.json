@@ -5,11 +5,13 @@
       "position": "Unity Developer",
       "duration": "January 2026 – Present",
       "responsibilities": [
-        "Developing mobile games for iOS and Android — from prototype to store release",
-        "Building playable ads based on existing projects for ad network requirements",
-        "Setting up a full CI/CD pipeline (TeamCity): automated builds, testing, and delivery for both platforms",
-        "Integrating SDKs: ad mediation (AppLovin MAX, Unity LevelPlay, AdMob), analytics (Firebase, AppsFlyer, GameAnalytics), Unity IAP",
-        "Optimizing performance: memory, FPS, and build size"
+        "Mobile games for iOS and Android — from prototype to store release",
+        "Playable ads built from existing projects",
+        "CI/CD on TeamCity: Android and iOS builds, store uploads, QA cheat builds",
+        "Addressables and CDN: optimized bundle loading and unloading",
+        "A/B tests via Varioqub and remote balance overrides",
+        "SDKs: AppLovin MAX, LevelPlay, AdMob, Firebase, AppMetrica, AppsFlyer, Unity IAP",
+        "Optimization: memory, FPS, build size"
       ]
     },
     {
@@ -17,11 +19,11 @@
       "position": "Unity Developer",
       "duration": "August 2023 – September 2025",
       "responsibilities": [
-        "Developed and maintained Unity games as part of a team",
-        "Optimized resources with Addressables and UniTask, ported games from Android to WebGL",
-        "Refactored and evolved legacy code, shipped 10+ updates for released games",
-        "Polished games with DOTween animations and custom shaders",
-        "Integrated WebGL platform SDKs, in-app purchases, and ads; worked with GameAnalytics and Yandex Metrica"
+        "Developed and maintained Unity games in a team",
+        "Addressables and UniTask optimization, Android → WebGL porting",
+        "Legacy code refactoring, 10+ updates for released games",
+        "Polish: DOTween animations and custom shaders",
+        "WebGL platform SDKs, IAP, ads; GameAnalytics and Yandex Metrica"
       ]
     }
   ],
@@ -31,11 +33,13 @@
       "position": "Unity-разработчик",
       "duration": "Январь 2026 – настоящее время",
       "responsibilities": [
-        "Разработка мобильных игр под iOS и Android — от прототипа до релиза в сторах",
-        "Создание playable-рекламы на базе существующих проектов под требования рекламных площадок",
-        "Настройка полного CI/CD-пайплайна (TeamCity): автосборка, тестирование и доставка билдов под обе платформы",
-        "Интеграция SDK: медиация рекламы (AppLovin MAX, Unity LevelPlay, AdMob), аналитика (Firebase, AppsFlyer, GameAnalytics), Unity IAP",
-        "Оптимизация производительности: память, FPS, размер билда"
+        "Мобильные игры под iOS и Android — от прототипа до релиза в сторах",
+        "Playable-реклама на базе существующих проектов",
+        "CI/CD на TeamCity: сборки Android и iOS, загрузка в сторы, чит-билды для QA",
+        "Addressables и CDN: оптимизация загрузки и выгрузки бандлов",
+        "A/B-тесты через Varioqub и удалённые оверрайды баланса",
+        "SDK: AppLovin MAX, LevelPlay, AdMob, Firebase, AppMetrica, AppsFlyer, Unity IAP",
+        "Оптимизация: память, FPS, размер билда"
       ]
     },
     {
@@ -44,10 +48,10 @@
       "duration": "Август 2023 – Сентябрь 2025",
       "responsibilities": [
         "Разработка и поддержка игр на Unity в команде",
-        "Оптимизация ресурсов через Addressables и UniTask, портирование игр с Android на WebGL",
-        "Рефакторинг и развитие legacy-кода, более 10 обновлений вышедших игр",
-        "Полировка игр: анимации на DOTween, кастомные шейдеры",
-        "Интеграция SDK WebGL-платформ, покупок и рекламы; аналитика GameAnalytics и Яндекс Метрика"
+        "Оптимизация через Addressables и UniTask, портирование Android → WebGL",
+        "Рефакторинг legacy-кода, 10+ обновлений вышедших игр",
+        "Полировка: анимации на DOTween, кастомные шейдеры",
+        "SDK WebGL-платформ, покупки, реклама; GameAnalytics и Яндекс Метрика"
       ]
     }
   ]
