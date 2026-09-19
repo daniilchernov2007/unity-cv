@@ -404,34 +404,41 @@
     "inDevelopment": [
       {
         "title": "Untitled Soulslike",
-        "role": "Indie Developer",
-        "description": "A soulslike game focused on combat mechanics, scalable architecture, and advanced enemy AI. Each enemy has unique behavior based on BT and FSM. By simply adding a controller, an enemy can be seamlessly integrated into the system. During development, I gained extensive experience working with animations (IK, animation events, curves).",
+        "role": "Solo Developer",
+        "description": "A third-person soulslike action game built around a scalable character architecture: any character can be controlled by the player or by AI — only the controller changes, while combat, abilities, and animation work exactly the same.",
         "technologies": [
-          "Unity",
-          "NavMesh",
-          "UniTask",
+          "Unity 6",
           "Zenject",
-          "NodeCanvas",
-          "DOTween"
+          "NodeCanvas (Behaviour Trees)",
+          "NavMesh",
+          "Animation Rigging / IK",
+          "Cinemachine",
+          "New Input System",
+          "ScriptableObjects",
+          "URP"
         ],
-        "date": "2025",
+        "date": "2025–2026",
         "team": "Solo development",
-        "image": "/images/untitled.jpg",
+        "image": "/images/soulslike.webp",
         "github": "https://github.com/smagoll/illusion_flash",
         "platforms": "PC",
         "responsibilities": [
-          "Developed a scalable enemy AI architecture based on BT and FSM",
-          "Created a controller system that allows quick integration of new enemies",
-          "Worked extensively with the animation system using IK, animation events, and curves",
-          "Implemented enemy navigation using Unity NavMesh",
-          "Integrated UniTask and Zenject for code optimization and maintainability"
+          "Designed a controller-agnostic character: one Character entity driven through an ICharacterController interface — swap PlayerController (input) for AIController (behaviour tree) and the same character is played by a human or by AI",
+          "Built the combat system: weapon combo chains, blocking, parry window, hit reactions, and stamina-based actions",
+          "Created a data-driven ability system on ScriptableObjects: attack, dodge, jump, and a heal ability, all executed through a shared ability state",
+          "Implemented enemy AI with NodeCanvas behaviour trees: target search, NavMesh pursuit, equipping a weapon, and attacks in range",
+          "Split the character logic into layered state machines: character states (idle, locomotion, ability, block, stun, death), movement states, and movement modes (free, strafe, NavMesh)",
+          "Added lock-on targeting with strafing, a status effect system (stun), and an inventory with weapon equip / sheath",
+          "Worked deeply with animation: foot IK, animation events, curves, sword and great sword animsets",
+          "Built supporting systems: hit VFX, sound banks with footstep sounds, HUD with health and stamina bars, and an editor FSM viewer for debugging",
+          "Wired everything with Zenject DI and factories; designed the level with terrain, cave, and landscape"
         ],
         "features": [
-          "Soulslike combat system with dodges and counterattacks",
-          "Enemies with complex behavior powered by BT and FSM",
-          "Easily extensible architecture for adding new enemies and mechanics",
-          "Use of IK, events, and curves in the animation system",
-          "Controller-based system: add an enemy and it’s ready to fight"
+          "One character — player or AI, just swap the controller",
+          "Soulslike combat: combos, block, parry, dodge, stamina",
+          "Behaviour-tree enemies with NavMesh navigation",
+          "Lock-on targeting and status effects",
+          "Foot IK and animation-event-driven combat"
         ],
         "storeLinks": {}
       },
@@ -881,34 +888,41 @@
     "inDevelopment": [
       {
         "title": "Untitled Soulslike",
-        "role": "Инди-разработчик",
-        "description": "Soulslike-игра с упором на боевую систему, масштабируемую архитектуру и проработанных врагов. У каждого противника собственное поведение, построенное на BT и FSM. Достаточно добавить контроллер, и враг автоматически интегрируется в систему. В процессе разработки получил большой опыт работы с анимациями (IK, ивенты, анимационные кривые).",
+        "role": "Соло-разработчик",
+        "description": "Soulslike-экшен от третьего лица с масштабируемой архитектурой персонажа: любым персонажем может управлять игрок или ИИ — меняется только контроллер, а боёвка, способности и анимации работают одинаково.",
         "technologies": [
-          "Unity",
-          "NavMesh",
-          "UniTask",
+          "Unity 6",
           "Zenject",
-          "NodeCanvas",
-          "DOTween"
+          "NodeCanvas (Behaviour Trees)",
+          "NavMesh",
+          "Animation Rigging / IK",
+          "Cinemachine",
+          "New Input System",
+          "ScriptableObjects",
+          "URP"
         ],
-        "date": "2025",
+        "date": "2025–2026",
         "team": "Соло-разработка",
-        "image": "/images/untitled.jpg",
+        "image": "/images/soulslike.webp",
         "github": "https://github.com/smagoll/illusion_flash",
         "platforms": "PC",
         "responsibilities": [
-          "Разработал масштабируемую архитектуру AI врагов на основе BT и FSM",
-          "Создал систему контроллеров, позволяющую быстро добавлять новых противников",
-          "Проработал систему анимаций с использованием IK, ивентов и анимационных кривых",
-          "Реализовал навигацию врагов с использованием Unity NavMesh",
-          "Интегрировал UniTask и Zenject для оптимизации кода и удобства поддержки"
+          "Спроектировал персонажа, независимого от источника управления: единый Character управляется через интерфейс ICharacterController — подменяешь PlayerController (ввод) на AIController (behaviour tree), и тем же персонажем играет человек или ИИ",
+          "Построил боевую систему: комбо-цепочки оружия, блок, окно парирования, реакции на удары и действия с расходом выносливости",
+          "Создал data-driven систему способностей на ScriptableObject: атака, уклонение, прыжок и лечение — все выполняются через общее состояние способности",
+          "Реализовал ИИ врагов на behaviour tree (NodeCanvas): поиск цели, преследование по NavMesh, экипировка оружия и атака в радиусе",
+          "Разделил логику персонажа на многоуровневые FSM: состояния персонажа (idle, locomotion, способность, блок, оглушение, смерть), состояния движения и режимы движения (свободный, стрейф, NavMesh)",
+          "Добавил захват цели со стрейфом, систему статус-эффектов (оглушение) и инвентарь с экипировкой и убиранием оружия в ножны",
+          "Глубоко поработал с анимацией: IK стоп, анимационные ивенты, кривые, наборы анимаций меча и двуручного меча",
+          "Сделал вспомогательные системы: VFX попаданий, звуковые банки со звуками шагов, HUD с полосками здоровья и выносливости, редакторный просмотрщик FSM для отладки",
+          "Связал всё через Zenject DI и фабрики; собрал уровень: террейн, пещера, ландшафт"
         ],
         "features": [
-          "Soulslike-боевая система с уклонениями и контратаками",
-          "Противники со сложным поведением на основе BT и FSM",
-          "Легко расширяемая архитектура для добавления новых врагов и механик",
-          "Использование IK, ивентов и кривых в системе анимаций",
-          "Система контроллеров: добавь врага — и он готов к бою"
+          "Один персонаж — игрок или ИИ, достаточно сменить контроллер",
+          "Soulslike-боёвка: комбо, блок, парирование, уклонение, выносливость",
+          "Враги на behaviour tree с навигацией по NavMesh",
+          "Захват цели и статус-эффекты",
+          "IK стоп и боёвка на анимационных ивентах"
         ],
         "storeLinks": {}
       },

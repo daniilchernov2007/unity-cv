@@ -222,7 +222,13 @@ export default function Resume() {
 
         <ContactsSection t={t} />
 
-        {selectedProject && <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />}
+        {selectedProject && (
+          <ProjectModal
+            project={selectedProject}
+            inDevelopment={projects.inDevelopment.some((p) => p.title === selectedProject.title)}
+            onClose={() => setSelectedProject(null)}
+          />
+        )}
       </div>
     </LanguageContext.Provider>
   )
@@ -571,7 +577,15 @@ function ContactsSection({ t }: { t: Translation }) {
   )
 }
 
-function ProjectModal({ project, onClose }: { project: Project; onClose: () => void }) {
+function ProjectModal({
+  project,
+  inDevelopment,
+  onClose,
+}: {
+  project: Project
+  inDevelopment: boolean
+  onClose: () => void
+}) {
   const { language } = useContext(LanguageContext)
   const t = translations[language as keyof typeof translations]
 
@@ -588,7 +602,7 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
   }, [onClose])
 
   const details = [
-    { label: t.status, value: project.date.includes("Present") ? t.inProgress : t.released },
+    { label: t.status, value: inDevelopment ? t.inProgress : t.released },
     { label: t.timeline, value: project.date },
     { label: t.teamSize, value: project.team },
     { label: t.platforms, value: project.platforms || "—" },
