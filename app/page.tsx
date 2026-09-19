@@ -65,6 +65,7 @@ type Project = {
   features?: string[]
   website?: string
   status?: string
+  company?: string
   storeLinks?: {
     googlePlay?: string
     appStore?: string
@@ -78,7 +79,14 @@ type Project = {
   }
 }
 
-type ProjectFilter = "all" | "published" | "development"
+type ProjectFilter = "all" | "studio" | "personal"
+
+const companyOrder = ["PatternMasters", "CarrotHood"]
+
+function projectRank(project: Project) {
+  const index = project.company ? companyOrder.indexOf(project.company) : -1
+  return index === -1 ? companyOrder.length : index
+}
 
 function HandArrow({ className }: { className?: string }) {
   return (
@@ -364,12 +372,12 @@ function ProjectsSection({
   const sliderRef = useRef<HTMLDivElement>(null)
 
   const inDevTitles = new Set(projects.inDevelopment.map((p) => p.title))
-  const list =
-    filter === "published"
-      ? projects.published
-      : filter === "development"
-        ? projects.inDevelopment
-        : [...projects.published, ...projects.inDevelopment]
+  const allProjects = [...[...projects.published].reverse(), ...projects.inDevelopment].sort(
+    (a, b) => projectRank(a) - projectRank(b)
+  )
+  const studioProjects = allProjects.filter((p) => p.company)
+  const personalProjects = allProjects.filter((p) => !p.company)
+  const list = filter === "studio" ? studioProjects : filter === "personal" ? personalProjects : allProjects
 
   const updateArrows = useCallback(() => {
     const el = sliderRef.current
@@ -388,10 +396,10 @@ function ProjectsSection({
     if (el) el.scrollBy({ left: dir * el.clientWidth * 0.8, behavior: "smooth" })
   }
 
-  const filters: { key: ProjectFilter; label: string }[] = [
-    { key: "all", label: t.filterAll },
-    { key: "published", label: t.filterPublished },
-    { key: "development", label: t.filterInDev },
+  const filters: { key: ProjectFilter; label: string; count: number }[] = [
+    { key: "all", label: t.filterAll, count: allProjects.length },
+    { key: "studio", label: t.filterStudio, count: studioProjects.length },
+    { key: "personal", label: t.filterPersonal, count: personalProjects.length },
   ]
 
   return (
@@ -408,6 +416,7 @@ function ProjectsSection({
                 }`}
               >
                 {f.label}
+                <sup className="ml-0.5 text-[10px] font-medium tabular-nums">{f.count}</sup>
               </button>
             ))}
           </div>
@@ -481,6 +490,13 @@ function ProjectCard({
             {project.status ?? t.inProgress}
           </span>
         )}
+        <span
+          className={`absolute bottom-3 left-3 text-[11px] font-semibold uppercase tracking-wider px-2 py-1 rounded ${
+            project.company ? "bg-foreground text-background" : "bg-background/90 text-foreground border border-foreground/20"
+          }`}
+        >
+          {project.company ?? t.personalProject}
+        </span>
       </div>
       <div className="flex items-baseline justify-between gap-3 mt-4">
         <h3 className="font-bold text-lg leading-tight truncate group-hover:link-underline">{project.title}</h3>
@@ -603,6 +619,7 @@ function ProjectModal({
   }, [onClose])
 
   const details = [
+    { label: t.company, value: project.company ?? t.personalProject },
     { label: t.status, value: project.status ?? (inDevelopment ? t.inProgress : t.released) },
     { label: t.timeline, value: project.date },
     { label: t.teamSize, value: project.team },

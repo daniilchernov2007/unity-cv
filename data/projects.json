@@ -36,6 +36,7 @@
       {
         "title": "HexaSort",
         "role": "Gameplay and Technical Developer",
+        "company": "CarrotHood",
         "description": "Puzzle game with over 100 levels, quest system, and leaderboard.",
         "technologies": [
           "Unity",
@@ -67,6 +68,7 @@
       {
         "title": "Quiz",
         "role": "Gameplay and Technical Developer",
+        "company": "CarrotHood",
         "description": "A question-and-answer style game.",
         "technologies": [
           "DOTween",
@@ -167,6 +169,7 @@
       {
         "title": "Jokerino",
         "role": "Gameplay & Technical Developer",
+        "company": "CarrotHood",
         "description": "A poker-based roguelike where the player combines cards and jokers to create powerful hands and progress through increasingly challenging runs. The game blends luck, strategy, and deck-building to deliver unique builds and unpredictable rounds.",
         "technologies": [
           "Unity",
@@ -202,6 +205,7 @@
       {
         "title": "Gossip",
         "role": "Gameplay & Technical Developer",
+        "company": "CarrotHood",
         "description": "A casual Match-3 game combined with a visual novel, where players complete puzzle levels to uncover storylines and build relationships between characters. The game offers a mix of humor, intrigue, and light drama.",
         "technologies": [
           "Unity",
@@ -236,6 +240,7 @@
       {
         "title": "Rome: Fire and Sword",
         "role": "Gameplay & Technical Developer",
+        "company": "CarrotHood",
         "description": "A strategy game set in ancient Rome, released on Yandex Games. Long-term live support of the title: content updates, new features, and gameplay changes.",
         "technologies": [
           "Unity",
@@ -266,6 +271,7 @@
       {
         "title": "Mystery of the Old House: Hidden Objects",
         "role": "Sole Developer",
+        "company": "CarrotHood",
         "description": "A hidden object game on Yandex Games: explore the rooms of an old house and uncover its secrets by finding hidden items.",
         "technologies": [
           "Unity",
@@ -296,6 +302,7 @@
       {
         "title": "Maze Puzzles",
         "role": "Gameplay & Technical Developer",
+        "company": "PatternMasters",
         "description": "A relaxing maze puzzle game for iOS and Android: no timers, no pressure — minimalist design, progressively harder levels, playable offline.",
         "technologies": [
           "Unity",
@@ -330,6 +337,7 @@
       {
         "title": "Royal Solitaire Associations",
         "role": "Gameplay & Technical Developer",
+        "company": "PatternMasters",
         "description": "A card game for iOS and Android that blends classic solitaire with word associations: sort related words into categories within a limited number of moves.",
         "technologies": [
           "Unity",
@@ -364,6 +372,7 @@
       {
         "title": "Tap It Out",
         "role": "Gameplay & Technical Developer",
+        "company": "PatternMasters",
         "description": "A relaxing tap puzzle game for iOS and Android: hundreds of calm, stress-free levels with no timers, daily challenges, boosters, and a picture gallery. Published by PlayStorm.",
         "technologies": [
           "Unity",
@@ -561,6 +570,7 @@
       {
         "title": "HexaSort",
         "role": "Геймплей и технический разработчик",
+        "company": "CarrotHood",
         "description": "Игра в жанре головоломки с более чем 100 уровнями, системой квестов, таблицей лидеров.",
         "technologies": [
           "Unity",
@@ -592,6 +602,7 @@
       {
         "title": "Quiz",
         "role": "Геймплей и технический разработчик",
+        "company": "CarrotHood",
         "description": "Игра в жанре вопрос-ответ.",
         "technologies": [
           "DOTween",
@@ -691,6 +702,7 @@
       {
         "title": "Jokerino",
         "role": "Геймплей и технический разработчик",
+        "company": "CarrotHood",
         "description": "Рогалик с механиками покера, где игрок комбинирует карты и джокеров, чтобы собирать сильные комбинации и продвигаться всё дальше. Игра сочетает азарт, стратегию и элементы случайности, создавая уникальные билды и неожиданные партии.",
         "technologies": [
           "Unity",
@@ -726,6 +738,7 @@
       {
         "title": "Gossip",
         "role": "Геймплей и технический разработчик",
+        "company": "CarrotHood",
         "description": "Казуальная Match-3 игра с визуальной новеллой, где игрок проходит уровни, узнавая новые детали сюжета и развивая отношения между персонажами. Атмосфера интриг, юмора и лёгкой драмы.",
         "technologies": [
           "Unity",
@@ -760,6 +773,7 @@
       {
         "title": "Рим: Огнем и Мечом",
         "role": "Геймплей и технический разработчик",
+        "company": "CarrotHood",
         "description": "Стратегия в сеттинге Древнего Рима, выпущенная на Яндекс Играх. Долгосрочная поддержка проекта: обновления контента, новые фичи и изменения геймплея.",
         "technologies": [
           "Unity",
@@ -790,6 +804,7 @@
       {
         "title": "Тайна Старого Дома: Поиск Предметов",
         "role": "Единственный разработчик",
+        "company": "CarrotHood",
         "description": "Игра в жанре «поиск предметов» на Яндекс Играх: исследуй комнаты старого дома и раскрывай его тайны, находя спрятанные предметы.",
         "technologies": [
           "Unity",
@@ -820,6 +835,7 @@
       {
         "title": "Лабиринт: Головоломки и Пазлы",
         "role": "Геймплей и технический разработчик",
+        "company": "PatternMasters",
         "description": "Расслабляющая головоломка с лабиринтами для iOS и Android: без таймеров и давления — минималистичный дизайн, постепенно усложняющиеся уровни, работает офлайн.",
         "technologies": [
           "Unity",
@@ -854,6 +870,7 @@
       {
         "title": "Королевский Пасьянс: Ассоциации",
         "role": "Геймплей и технический разработчик",
+        "company": "PatternMasters",
         "description": "Карточная игра для iOS и Android, сочетающая классический пасьянс со словесными ассоциациями: раскладывай связанные слова по категориям за ограниченное число ходов.",
         "technologies": [
           "Unity",
@@ -888,6 +905,7 @@
       {
         "title": "Tap It Out",
         "role": "Геймплей и технический разработчик",
+        "company": "PatternMasters",
         "description": "Расслабляющая тап-головоломка для iOS и Android: сотни спокойных уровней без таймеров, ежедневные испытания, бустеры и галерея картин. Издатель — PlayStorm.",
         "technologies": [
           "Unity",
