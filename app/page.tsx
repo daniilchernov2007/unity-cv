@@ -64,6 +64,7 @@ type Project = {
   responsibilities?: string[]
   features?: string[]
   website?: string
+  status?: string
   storeLinks?: {
     googlePlay?: string
     appStore?: string
@@ -475,9 +476,9 @@ function ProjectCard({
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
         />
-        {inDevelopment && (
+        {(inDevelopment || project.status) && (
           <span className="absolute top-3 left-3 bg-background/90 text-foreground text-[11px] font-semibold uppercase tracking-wider px-2 py-1 rounded">
-            {t.inProgress}
+            {project.status ?? t.inProgress}
           </span>
         )}
       </div>
@@ -602,7 +603,7 @@ function ProjectModal({
   }, [onClose])
 
   const details = [
-    { label: t.status, value: inDevelopment ? t.inProgress : t.released },
+    { label: t.status, value: project.status ?? (inDevelopment ? t.inProgress : t.released) },
     { label: t.timeline, value: project.date },
     { label: t.teamSize, value: project.team },
     { label: t.platforms, value: project.platforms || "—" },

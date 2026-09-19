@@ -403,6 +403,46 @@
     ],
     "inDevelopment": [
       {
+        "title": "inverse#motion",
+        "role": "Team Lead & Gameplay Developer",
+        "status": "Prototype · on hold",
+        "description": "A co-op friendslop game about chaos and humor. Kids escape a secret underground lab after blowing it up: they climb floor by floor, unlocking the elevator's physical locks, smashing everything for chaos points, running from guards and otherworldly monsters, and using unstable abilities and silly items.",
+        "technologies": [
+          "Unity 6",
+          "Mirror",
+          "Reflex DI",
+          "NodeCanvas",
+          "A* Pathfinding",
+          "FMOD",
+          "UniTask",
+          "DOTween"
+        ],
+        "date": "2025–2026",
+        "team": "Team of 4 (lead, developer, game designer, artist)",
+        "image": "/images/inverseMotion.webp",
+        "github": "",
+        "platforms": "PC",
+        "responsibilities": [
+          "Led a team of 4: broke the game into tickets, set up the git flow with feature branches and pull-request reviews, owned the architecture and wrote most of the codebase",
+          "Built the multiplayer on Mirror (host / client): server-authoritative gameplay, SyncVars and Commands, synchronized character state machine and networked VFX",
+          "Made a responsive character controller: walk, run, crouch, slide, jump, stamina, physics impulses, ragdoll and stun, IK, and a first-person camera with procedural shake",
+          "Separated the character from its controller — players and AI monsters share the same character logic",
+          "Built a networked inventory: pickup, drop, and throw, item slots, item actions with charge and hold progress, an item factory, heal items, outline highlight, and interaction UI",
+          "Created the chaos system: destruction feeds a server-side chaos score that drives level goals",
+          "Implemented monster AI on NodeCanvas behaviour trees with A* pathfinding: patrols, vision with memory, and hearing driven by a noise system (footsteps, actions)",
+          "Added abilities, status effects, damage providers, screen effects, and switching between parallel worlds",
+          "Integrated FMOD audio with a sound manager; wired all systems through Reflex DI with game and map scopes"
+        ],
+        "features": [
+          "Co-op chaos with friends — break everything for points",
+          "Escape the lab floor by floor, unlocking the elevator",
+          "Monsters that see, remember, and hear you",
+          "Silly items, unstable abilities, and ragdoll physics",
+          "Parallel worlds and trials on every floor"
+        ],
+        "storeLinks": {}
+      },
+      {
         "title": "Untitled Soulslike",
         "role": "Solo Developer",
         "description": "A third-person soulslike action game built around a scalable character architecture: any character can be controlled by the player or by AI — only the controller changes, while combat, abilities, and animation work exactly the same.",
@@ -886,6 +926,46 @@
       }
     ],
     "inDevelopment": [
+      {
+        "title": "inverse#motion",
+        "role": "Тимлид и геймплей-разработчик",
+        "status": "Прототип · на паузе",
+        "description": "Кооперативный friendslop про хаос и юмор. Дети сбегают из секретной подземной лаборатории, взорвав её: поднимаются этаж за этажом, активируя физические замки лифта, крушат всё вокруг ради очков хаоса, убегают от охраны и существ из другого мира, используют нестабильные способности и нелепые предметы.",
+        "technologies": [
+          "Unity 6",
+          "Mirror",
+          "Reflex DI",
+          "NodeCanvas",
+          "A* Pathfinding",
+          "FMOD",
+          "UniTask",
+          "DOTween"
+        ],
+        "date": "2025–2026",
+        "team": "Команда из 4 человек (лид, разработчик, геймдизайнер, художник)",
+        "image": "/images/inverseMotion.webp",
+        "github": "",
+        "platforms": "PC",
+        "responsibilities": [
+          "Руководил командой из 4 человек: декомпозировал игру на тикеты, выстроил git flow с feature-ветками и ревью пулреквестов, отвечал за архитектуру и написал большую часть кода",
+          "Построил мультиплеер на Mirror (host / client): серверно-авторитарный геймплей, SyncVar и Command, синхронизация стейт-машины персонажа и сетевые VFX",
+          "Сделал отзывчивый контроллер персонажа: ходьба, бег, присед, подкат, прыжок, выносливость, физические импульсы, рэгдолл и оглушение, IK и камера от первого лица с процедурной тряской",
+          "Отделил персонажа от контроллера — игроки и монстры-ИИ используют одну и ту же логику персонажа",
+          "Сделал сетевой инвентарь: подбор, выброс и бросок предметов, слоты, действия предметов с прогрессом зарядки и удержания, фабрика предметов, лечащие предметы, подсветка контуром и UI взаимодействия",
+          "Создал систему хаоса: разрушения пополняют серверный счётчик хаоса, от которого зависят цели уровня",
+          "Реализовал ИИ монстров на behaviour tree (NodeCanvas) с A* Pathfinding: патрулирование, зрение с памятью и слух через систему шума (шаги, действия)",
+          "Добавил способности, статус-эффекты, источники урона, экранные эффекты и переключение между параллельными мирами",
+          "Интегрировал звук на FMOD с менеджером звуков; связал все системы через Reflex DI со скоупами игры и карты"
+        ],
+        "features": [
+          "Кооперативный хаос с друзьями — круши всё ради очков",
+          "Побег из лаборатории этаж за этажом через замки лифта",
+          "Монстры, которые видят, запоминают и слышат",
+          "Нелепые предметы, нестабильные способности и рэгдолл-физика",
+          "Параллельные миры и испытания на каждом этаже"
+        ],
+        "storeLinks": {}
+      },
       {
         "title": "Untitled Soulslike",
         "role": "Соло-разработчик",
