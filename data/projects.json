@@ -437,30 +437,41 @@
       },
       {
         "title": "Losses",
-        "role": "Indie Developer",
-        "description": "Social deduction game set on an island where players must find the killers to survive.",
+        "role": "Solo Developer",
+        "description": "A multiplayer social deduction game on an island: players live through day, evening, and night cycles, complete missions, and talk by voice to expose the killers hiding among them before it's too late.",
         "technologies": [
           "Unity",
-          "Shader Graph",
-          "Addressables",
+          "Photon Fusion 2",
+          "Photon Voice",
           "Zenject",
-          "Blender"
+          "UniTask",
+          "Cinemachine",
+          "URP",
+          "New Input System"
         ],
-        "date": "2026-2030",
-        "team": "Solo Developer",
-        "image": "/images/losses.jpg",
+        "date": "2024",
+        "team": "Solo development",
+        "image": "/images/losses.webp",
         "github": "",
         "platforms": "PC",
         "responsibilities": [
-          "Creating multiplayer functionality",
-          "Developing mini-game mechanics",
-          "Designing the game’s storyline",
-          "Designing the entire game from mechanics to visuals"
+          "Built the networked core on Photon Fusion 2 (Shared mode): matchmaking, lobby and rooms, player spawning, and state synchronization",
+          "Designed the game loop as a networked FSM: waiting → day → evening → night → vote, each phase with its own rules, timer, and weather",
+          "Implemented hidden roles (guest, killer, detective) with role-specific abilities and night actions",
+          "Created voting and sleep systems synchronized across all players, with kick-out resolution and a vote UI",
+          "Added proximity voice chat with push-to-talk via Photon Voice",
+          "Built a mission system with randomly assigned daily tasks and interactable objects",
+          "Implemented a ghost spectator mode for eliminated players",
+          "Made the first-person controller feel good: Cinemachine camera, head bob, jump shake, swimming, and an underwater effect",
+          "Set up the island scene: terrain, water, skybox, and a day/night cycle with fog and lighting transitions",
+          "Structured the codebase with Zenject DI and event-driven communication between systems"
         ],
         "features": [
-          "Immersive atmosphere",
-          "Living world",
-          "Play with friends or other players"
+          "Social deduction with voice chat — find the killers by talking",
+          "Day / evening / night cycle with dynamic lighting and weather",
+          "Hidden roles with unique abilities",
+          "Missions, voting, and a ghost mode after death",
+          "Stylized island with water, swimming, and a lighthouse"
         ],
         "storeLinks": {}
       }
@@ -903,30 +914,41 @@
       },
       {
         "title": "Losses",
-        "role": "Инди-разработчик",
-        "description": "Игра в жанре социальной дедукции. Действие игры происходит на острове, где необходимо найти убийц, чтобы выжить.",
+        "role": "Соло-разработчик",
+        "description": "Мультиплеерная игра в жанре социальной дедукции на острове: игроки проживают циклы дня, вечера и ночи, выполняют задания и общаются голосом, чтобы вычислить убийц среди себя, пока не стало поздно.",
         "technologies": [
           "Unity",
-          "Shader Graph",
-          "Addressables",
+          "Photon Fusion 2",
+          "Photon Voice",
           "Zenject",
-          "Blender"
+          "UniTask",
+          "Cinemachine",
+          "URP",
+          "New Input System"
         ],
-        "date": "2026-2030",
-        "team": "Команда из 1 человека",
-        "image": "/images/losses.jpg",
+        "date": "2024",
+        "team": "Соло-разработка",
+        "image": "/images/losses.webp",
         "github": "",
         "platforms": "PC",
         "responsibilities": [
-          "Создание мультиплеера",
-          "Разработка механики мини-игр",
-          "Продумывание истории игры",
-          "Создание дизайна всей игры от механик до внешнего вида"
+          "Построил сетевое ядро на Photon Fusion 2 (Shared mode): матчмейкинг, лобби и комнаты, спавн игроков, синхронизация состояния",
+          "Спроектировал игровой цикл как сетевую FSM: ожидание → день → вечер → ночь → голосование, у каждой фазы свои правила, таймер и погода",
+          "Реализовал скрытые роли (гость, убийца, детектив) с уникальными способностями и ночными действиями",
+          "Сделал синхронизированные системы голосования и сна с исключением игрока и UI голосования",
+          "Добавил голосовой чат с push-to-talk на Photon Voice",
+          "Создал систему миссий со случайными ежедневными заданиями и интерактивными объектами",
+          "Реализовал режим призрака-наблюдателя для выбывших игроков",
+          "Отполировал контроллер от первого лица: камера на Cinemachine, покачивание при ходьбе, тряска при прыжке, плавание и эффект под водой",
+          "Собрал сцену острова: террейн, вода, скайбокс и смена дня и ночи с переходами тумана и освещения",
+          "Выстроил архитектуру на Zenject DI и событийной связи между системами"
         ],
         "features": [
-          "Удивительная атмосфера",
-          "Живой мир",
-          "Игра с друзьми или другими игроками"
+          "Социальная дедукция с голосовым чатом — вычисляй убийц в разговоре",
+          "Цикл дня, вечера и ночи с динамическим освещением и погодой",
+          "Скрытые роли с уникальными способностями",
+          "Миссии, голосование и режим призрака после смерти",
+          "Стилизованный остров с водой, плаванием и маяком"
         ],
         "storeLinks": {}
       }
