@@ -21,7 +21,7 @@ const BIRTH_DATE = new Date(2001, 6, 9)
 const CAREER_START = new Date(2023, 7, 1)
 const PHOTO_SRC = "/images/me.jpg"
 const TELEGRAM = "https://t.me/potero"
-const GITHUB = "https://github.com/smagoll"
+const GITHUB = "https://github.com/daniilchernov2007"
 const EMAIL = "daniilchernov1994@gmail.com"
 
 const keyStack = ["Unity", "C#", "Zenject", "UniTask", "Addressables", "DOTween", "ECS / FSM / BT", "Photon Fusion", "AppLovin MAX", "Firebase", "CI/CD"]
@@ -554,7 +554,7 @@ function ContactsSection({ t }: { t: Translation }) {
   const links = [
     { href: TELEGRAM, label: "Telegram", value: "@potero", icon: <FaTelegramPlane className="h-5 w-5" /> },
     { href: `mailto:${EMAIL}`, label: "Email", value: EMAIL, icon: <Mail className="h-5 w-5" /> },
-    { href: GITHUB, label: "GitHub", value: "smagoll", icon: <Github className="h-5 w-5" /> },
+    { href: GITHUB, label: "GitHub", value: "daniilchernov2007", icon: <Github className="h-5 w-5" /> },
   ]
 
   return (

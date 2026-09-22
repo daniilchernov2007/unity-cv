@@ -14,7 +14,7 @@
         "date": "2024",
         "team": "Solo Developer",
         "image": "/images/aristocrasy.png",
-        "github": "https://github.com/smagoll/roguelike",
+        "github": "https://github.com/daniilchernov2007/roguelike",
         "platforms": "Android",
         "responsibilities": [
           "Developed and implemented the chunk system",
@@ -469,7 +469,7 @@
         "date": "2025–2026",
         "team": "Solo development",
         "image": "/images/soulslike.webp",
-        "github": "https://github.com/smagoll/illusion_flash",
+        "github": "https://github.com/daniilchernov2007/illusion_flash",
         "platforms": "PC",
         "responsibilities": [
           "Designed a controller-agnostic character: one Character entity driven through an ICharacterController interface — swap PlayerController (input) for AIController (behaviour tree) and the same character is played by a human or by AI",
@@ -548,7 +548,7 @@
         "date": "2024",
         "team": "Команда из 1 человека",
         "image": "/images/aristocrasy.png",
-        "github": "https://github.com/smagoll/roguelike",
+        "github": "https://github.com/daniilchernov2007/roguelike",
         "platforms": "Android",
         "responsibilities": [
           "Разработал и реализовал систему чанков",
@@ -1002,7 +1002,7 @@
         "date": "2025–2026",
         "team": "Соло-разработка",
         "image": "/images/soulslike.webp",
-        "github": "https://github.com/smagoll/illusion_flash",
+        "github": "https://github.com/daniilchernov2007/illusion_flash",
         "platforms": "PC",
         "responsibilities": [
           "Спроектировал персонажа, независимого от источника управления: единый Character управляется через интерфейс ICharacterController — подменяешь PlayerController (ввод) на AIController (behaviour tree), и тем же персонажем играет человек или ИИ",
