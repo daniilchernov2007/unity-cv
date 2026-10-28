@@ -19,7 +19,13 @@ const LanguageContext = createContext({
 
 const BIRTH_DATE = new Date(2001, 6, 9)
 const CAREER_START = new Date(2023, 7, 1)
-const PHOTO_SRC = "/images/me.jpg"
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || ""
+
+function withBase(src: string) {
+  return src.startsWith("/") ? BASE_PATH + src : src
+}
+
+const PHOTO_SRC = withBase("/images/me.jpg")
 const TELEGRAM = "https://t.me/potero"
 const GITHUB = "https://github.com/daniilchernov2007"
 const EMAIL = "daniilchernov1994@gmail.com"
@@ -481,7 +487,7 @@ function ProjectCard({
     >
       <div className="relative aspect-[4/3] overflow-hidden rounded-md border border-foreground/15 bg-muted">
         <img
-          src={project.image}
+          src={withBase(project.image)}
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
         />
@@ -646,7 +652,7 @@ function ProjectModal({
         <div className="p-6 md:p-8 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
           <div className="md:col-span-2 space-y-8">
             <div className="aspect-video overflow-hidden rounded-md border border-foreground/15 bg-muted">
-              <img src={project.image} alt={project.title} className="object-cover w-full h-full" />
+              <img src={withBase(project.image)} alt={project.title} className="object-cover w-full h-full" />
             </div>
 
             <section>
